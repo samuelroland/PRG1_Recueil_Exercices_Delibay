@@ -1,0 +1,42 @@
+## Exo: Modulo
+
+Instruction:
+Soient les déclarations suivantes :
+
+~~~cpp
+int i = 5, j = 11, n = 10;
+double x = 5, y = 11;
+~~~
+
+Quel est le résultat d'évaluation de l'expression suivante ? en cas d'erreur, indiquez `INCO` et justifier de tête la raison.
+TODO: méthode et consigne ok ?
+
+### Subexo: 
+Instruction: `j % i` 
+Solution: 1
+
+### Subexo: 
+Instruction: `n % i`
+Solution: 0
+
+### Subexo: 
+Instruction: `y % x`
+Solution: INCO
+Explanation: Erreur, le modulo n'est pas défini pour les réels
+
+### Subexo: 
+Instruction: `y % i` 
+Solution: INCO
+Explanation: Erreur, le modulo n'est pas défini pour les réels
+
+### Subexo: 
+Instruction: `-j % i` 
+Solution: -1
+
+### Subexo: 
+Instruction: `n % ++i` 
+Solution: 4
+
+### Subexo: 
+Instruction: `n++ % ++i` 
+Solution: 4

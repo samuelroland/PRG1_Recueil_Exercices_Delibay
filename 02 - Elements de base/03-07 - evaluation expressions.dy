@@ -1,0 +1,51 @@
+## Exo: Evaluation d'expressions - Opérateurs logiques
+TODO: okay d'avoir simplifié en ayant retiré le code du main ?
+
+Instruction: Que va afficher le programme C++ suivant ?
+
+~~~cpp
+int i, j, k;
+
+i = j = k = 1;
+i += j += k;
+cout << "i = " << i << " j = " << j << " k = " << k << endl;
+~~~
+Solution: i = 3 j = 2 k = 1
+
+~~~cpp
+int i, j, k;
+
+i = 3; j = 2;
+k = i++ > j || j++ != 3;
+cout << "i = " << i << " j = " << j << " k = " << k << endl;
+~~~
+Solution: i = 4 j = 2 k = 1
+
+~~~cpp
+int i, j, k;
+
+i = 3; j = 2;
+k = i++ < j || j++ != 3;
+cout << "i = " << i << " j = " << j << " k = " << k << endl;
+~~~
+Solution: i = 4 j = 3 k = 1
+
+~~~cpp
+int i, j, k;
+
+i = 3; j = 2;
+k = ++i == 3 && ++j == 3;
+cout << "i = " << i << " j = " << j << " k = " << k << endl;
+~~~
+Solution: i = 4 j = 2 k = 0
+
+~~~cpp
+int i, j, k;
+
+i = 3; j = 2;
+k = ++i > 3 && ++j == 3;
+cout << "i = " << i << " j = " << j << " k = " << k << endl;
+~~~
+Solution: i = 4 j = 3 k = 1
+
+

@@ -1,0 +1,41 @@
+## Exo: Division entière et réelle
+
+Instruction:
+Soient les déclarations suivantes :
+
+~~~cpp
+int i = 5, j = 11;
+double x = 5, y = 11;
+
+double m = 0;
+~~~
+
+Que vaut la variable m dans le cas ci-dessous ?
+
+### Subexo: 
+Instruction: `m = j / i;`
+Solution: 2
+
+### Subexo: 
+Instruction: `m = y / x;`
+Solution: 2.2 
+
+### Subexo: 
+Instruction: `m = j / i + 1.0;`
+Solution: 3   
+
+### Subexo: 
+Instruction: `m = y / x + 1;`
+Solution: 3.2 
+
+### Subexo: 
+Instruction: `m = y / x + j / i
+Solution: 4.2 
+
+### Subexo: 
+Instruction: `m = i + y / x;`
+Solution: 7.2 
+
+### Subexo: 
+Instruction: `m = x + j / i;`
+Solution: 7   
