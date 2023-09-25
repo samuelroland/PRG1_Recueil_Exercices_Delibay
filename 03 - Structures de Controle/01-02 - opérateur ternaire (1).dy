@@ -1,0 +1,62 @@
+## Exo: if ... else -> ?: 
+Instruction: Réécrivez l'extrait de code suivant en une seule ligne en utilisant un ou des opérateurs ternaires 
+
+### Subexo:
+Instruction:
+~~~cpp 
+if (a > 0) {
+   b += a;
+} else {
+   b -= 2*a; 
+}
+~~~
+
+Solution:
+- b += a > 0 ? a : -2*a;
+- b = a > 0 ? b + a : b - 2a;
+
+Explanation:
+~~~cpp 
+b += a > 0 ? a : -2*a; 
+// plus propre que 
+b = a > 0 ? b + a : b - 2a; 
+~~~
+
+### Subexo:
+Instruction:
+~~~cpp 
+if (d == 0.) {
+   r = 1e100;
+} else {
+   r = n/d; 
+}
+~~~
+
+Solution:
+- r = d == 0. ? 1e100 : n/d;
+- r = d ? n / d : 1e100; 
+
+Explanation:
+~~~cpp 
+r = d == 0. ? 1e100 : n/d;
+
+// ou en utilisant le fait que la conversion de double en bool est équivalent à (d != 0)
+r = d ? n / d : 1e100; 
+~~~
+
+### Subexo:
+Instruction:
+~~~cpp 
+if (a > 0) {
+   b += 1;
+} else if (a == 0) {
+   b = 0;
+} else {
+   b *= 2;
+}
+~~~
+Solution: 
+- b = a > 0 ? b + 1 : (a == 0 ? 0 : 2 * b);
+- b = a > 0 ? b + 1 : (a == 0 ? 0 : b * 2);
+
+TODO: variante ok ?

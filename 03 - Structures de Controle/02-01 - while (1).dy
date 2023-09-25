@@ -1,0 +1,95 @@
+# `while` (1)
+
+Que va afficher à l'exécution chacun des groupes d'instructions ci-dessous ?
+
+### Subexo:
+Instruction:
+~~~cpp
+// 1
+int i = 0;
+while (i - 10) {
+   i += 2; cout << i << " ";
+}
+~~~
+Solution: 2 4 6 8 10
+
+### Subexo:
+Instruction:
+~~~cpp
+// 2
+int i = 0;
+while (i - 10)
+   i += 2; cout << i << " ";
+~~~
+Solution: 10
+Explanation: Noter que `cout` ne fait pas partie de la boucle
+
+### Subexo:
+Instruction:
+~~~cpp
+// 3
+int i = 0;
+while (i < 11) {
+   i += 2; cout << i << " ";
+}
+~~~
+Solution: 2 4 6 8 10 12
+
+### Subexo:
+Instruction:
+~~~cpp
+// 4
+int i = 11;
+while (i--) {
+   cout << i-- << " ";
+}
+~~~
+Solution: 10 8 6 4 2 0 -2 -4 …
+Explanation: boucle infinie
+TODO: gérer ces valeurs infinies ! (dire "mettez 5 valeurs puis ..." ? ou juste INF)
+
+### Subexo:
+Instruction:
+~~~cpp
+//5
+int i = 12;
+while (i--) {
+   cout << --i << " ";
+}
+~~~
+Solution: 10 8 6 4 2 0
+
+### Subexo:
+Instruction:
+~~~cpp
+// 6	
+int i = 0;
+while (i++ < 10) {
+   cout << i-- << " ";
+}
+~~~
+Solution: 1 1 1 1 1 1 1 1 .... 
+Explanation: boucle infinie
+TODO: gérer ces valeurs infinies ! (dire "mettez 5 valeurs puis ..." ? ou juste INF)
+
+### Subexo:
+Instruction:
+~~~cpp
+// 7	
+int i = 1;
+while (i <= 5) {
+   cout << 2 * i++ << " ";
+}
+~~~
+Solution: 2 4 6 8 10
+
+### Subexo:
+Instruction:
+~~~cpp
+// 8
+int i = 1;
+while (i != 9) {
+   cout << (i = i + 2) << " ";
+}
+~~~
+Solution: 3 5 7 9
