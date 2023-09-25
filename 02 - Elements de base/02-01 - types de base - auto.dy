@@ -1,6 +1,5 @@
 ## Exo: Types de base - auto
-Instruction: Quel est le type assigné dans cette définition de type automatique ?
-TODO: check new instruction
+Instruction: Indiquez le type de la variable après l'initialisation avec le mot clé auto.
 
 ### Subexo:
 Instruction: `auto var1 = 10;`
