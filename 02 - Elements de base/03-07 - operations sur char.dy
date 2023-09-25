@@ -1,0 +1,42 @@
+## Exo: Opérations sur le type char
+
+Instruction: Que va afficher le programme C++ suivant ?
+
+~~~cpp
+char x = 'A'; // 65
+char y = '0'; // 48
+char z;
+~~~
+
+### Subexo:
+Instruction:
+~~~cpp
+z = x + 4;
+cout << "1. " << z << endl;
+~~~
+Solution: E
+
+### Subexo:
+Instruction:
+~~~cpp
+z = x + 4;
+cout << "2. " << ++z << endl;
+~~~
+Solution: F
+TODO: okay d'avoir coupé le 1 et 2 comme ça ?
+
+### Subexo:
+Instruction:
+~~~cpp
+z = x + 0;
+cout << "3. " << z << endl;
+~~~
+Solution: A
+
+### Subexo:
+Instruction:
+~~~cpp
+z = x + '0';
+cout << "4. " << z << endl;
+~~~
+Solution: q

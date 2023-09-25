@@ -1,0 +1,23 @@
+## Exo: Les opérateurs logiques
+Instruction: On suppose disposer de deux entiers x et y. Ecrire la condition permettant de tester :
+
+TODO: add regex/spaces filter ??
+
+### Subexo:
+Instruction: ... que nos deux entiers valent 0
+Solution: x == 0 && y == 0
+
+### Subexo:
+Instruction: ... qu'au moins l'un de nos deux entiers vaut 0
+Solution: x == 0 || y == 0
+
+### Subexo:
+Instruction: ... qu'un seul de nos deux entiers vaut 0
+Solution: (x == 0 && y != 0) || (x != 0 && y == 0)
+
+### Subexo:
+Instruction: ... qu'au moins un de nos deux entiers ne vaut pas 0
+Solution: 
+- x != 0 || y != 0
+- !(x == 0 && y == 0)
+
