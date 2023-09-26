@@ -9,6 +9,7 @@ if (i < 1) {
    b = i > 2;
 }
 ~~~
+
 <details>
 <summary>Solution</summary>
 
@@ -28,12 +29,14 @@ if (j == 0) {
    }
 }
 ~~~
+
 <details>
 <summary>Solution</summary>
 
 ~~~cpp
 b = (j == 0) or (i / j >= k);
 ~~~
+
 </details>
 
 ~~~cpp

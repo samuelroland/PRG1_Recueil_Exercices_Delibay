@@ -1,5 +1,5 @@
-# if ... else -> ?: 
- 
+# if ... else -> ?:
+
 Réécrivez les extraits de code suivants en une seule ligne en utilisant un ou des opérateurs ternaires 
 
 ~~~cpp 
@@ -28,7 +28,6 @@ if (d == 0.) {
    r = n/d; 
 }
 ~~~
-
 
 <details>
 <summary>Solution</summary>

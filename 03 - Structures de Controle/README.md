@@ -6,4 +6,4 @@
 2. Boucles
 3. Sauts
 
-Les exercices sont numérotés SS.NN avec SS le numéro de section et NN le numéro d'exercice dans la section
+Les exercices sont numérotés SS.NN avec SS le numéro de section et NN le numéro d'exercice dans la section.

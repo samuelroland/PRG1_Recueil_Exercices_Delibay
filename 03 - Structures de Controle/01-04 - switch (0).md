@@ -27,6 +27,7 @@ Que va-t-il afficher lorsque l'utilisateur entre comme valeur
 ~~~
 0
 ~~~
+
 <details>
 <summary>Solution</summary>
 
@@ -38,6 +39,7 @@ AB
 ~~~
 1
 ~~~
+
 <details>
 <summary>Solution</summary>
 
@@ -49,6 +51,7 @@ B
 ~~~
 2
 ~~~
+
 <details>
 <summary>Solution</summary>
 
@@ -60,6 +63,7 @@ B
 ~~~
 4
 ~~~
+
 <details>
 <summary>Solution</summary>
 
@@ -71,6 +75,7 @@ CD
 ~~~
 6
 ~~~
+
 <details>
 <summary>Solution</summary>
 
@@ -82,6 +87,7 @@ D
 ~~~
 -1
 ~~~
+
 <details>
 <summary>Solution</summary>
 
