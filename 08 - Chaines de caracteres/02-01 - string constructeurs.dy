@@ -1,0 +1,74 @@
+## Exo: Constructeurs de la classe string
+Instruction:
+Indiquer ce que va afficher la séquence d'instructions suivantes : 
+
+_Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
+
+### Subexo:
+Instruction:
+~~~cpp
+string s1 = "ABC";
+string s2(s1, 1);
+cout << '|' << s2 << '|' << endl;
+~~~
+Solution: |BC|
+
+### Subexo:
+Instruction:
+~~~cpp
+string s1 = "ABC";
+string s2(s1, 2, 3);
+cout << '|' << s2 << '|' << endl;
+~~~
+Solution: |C|
+
+### Subexo:
+Instruction:
+~~~cpp
+string s1 = "ABC";
+string s2(s1, 3, 2);
+cout << '|' << s2 << '|' << endl;
+~~~
+Solution: ||
+
+### Subexo:
+Instruction:
+~~~cpp
+string s1 = "ABC";
+string s2(s1, 4, 1);
+cout << '|' << s2 << '|' << endl;
+~~~
+Solution: EXEC
+TODO: faut-il uniformiser ces erreurs particulières partout ?
+
+### Subexo:
+Instruction:
+~~~cpp
+string s("ABC", 3);
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |ABC|
+
+### Subexo:
+Instruction:
+~~~cpp
+string s("ABC", 4);
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |ABC\0|
+
+### Subexo:
+Instruction:
+~~~cpp
+string s("ABC", 5);
+cout << '|' << s << '|' << endl;
+~~~
+Solution: INDE
+
+### Subexo:
+Instruction:
+~~~cpp
+string s(3, 'A');
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |AAA|
