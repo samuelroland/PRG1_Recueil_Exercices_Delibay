@@ -35,7 +35,7 @@ Solution: ABC
 Instruction:
 ~~~cpp
 string s = "AB";
-s += 5;
+string ss = s + 5;
 ~~~
 Solution: INCO
 

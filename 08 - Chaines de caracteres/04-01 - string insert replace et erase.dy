@@ -1,0 +1,134 @@
+# Insert replace et erase
+
+Indiquer ce que va afficher la séquence d'instructions suivantes : 
+
+_Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
+
+### Subexo:
+~~~cpp
+// #1
+string s1 = "ABC";
+string s2 = "123";
+s1.insert(1, s2); 
+cout << '|' << s1 << '|' << endl;
+~~~
+Solution: |A123BC|
+
+### Subexo:
+~~~cpp
+// #2
+string s1 = "ABC";
+string s2 = "123";
+s1.insert(4, s2); 
+cout << '|' << s1 << '|' << endl;
+~~~
+Solution: 
+Explanation: Erreur à l'exécution (NB s1.insert(3, s2) serait OK)
+
+### Subexo:
+~~~cpp
+// #3
+string s1 = "ABC";
+string s2 = "123";
+s1.insert(2, s2, 1, 2); 
+cout << '|' << s1 << '|' << endl;
+~~~
+Solution: |AB23C|
+
+### Subexo:
+~~~cpp
+// #4
+string s1 = "ABC";
+string s2 = "123";
+s1.insert(2, s2, 0, string::npos); 
+cout << '|' << s1 << '|' << endl;
+~~~
+Solution: |AB123C|
+
+### Subexo:
+~~~cpp
+// #5
+string s = "ABC";
+s.insert(3, "123", 2); 
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |ABC12|
+
+### Subexo:
+~~~cpp
+// #6
+string s = "ABC";
+s.insert(1, 2, '3'); 
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |A33BC|
+
+### Subexo:
+~~~cpp
+// #7
+string s1 = "ABCDEF";
+string s2 = "123";
+s1.replace(1, 2, s2); 
+cout << '|' << s1 << '|' << endl;
+~~~
+Solution: |A123DEF|
+
+### Subexo:
+~~~cpp
+// #8
+string s1 = "ABCDEF";
+string s2 = "123";
+s1.replace(2, 4, s2); 
+cout << '|' << s1 << '|' << endl;
+~~~ 
+|AB123|
+
+### Subexo:
+~~~cpp
+// #9
+string s1 = "ABCDEF";
+string s2 = "123";
+s1.replace(1, 2, s2, 1, 2); 
+cout << '|' << s1 << '|' << endl;
+~~~
+Solution: |A23DEF|
+
+### Subexo:
+~~~cpp
+// #10
+string s = "ABCDEF";
+s.replace(2, 3, "123", 2); 
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |AB12F|
+
+### Subexo:
+~~~cpp
+// #11
+string s = "ABCDEF";
+s.erase(); 
+cout << '|' << s << '|' << endl;
+~~~
+Solution: ||
+
+
+	
+### Subexo:
+~~~cpp
+// #12
+string s = "ABCDEF";
+s.erase(2); 
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |AB|
+
+
+### Subexo:
+~~~cpp
+// #13
+string s = "ABCDEF";
+s.erase(2, 2); 
+cout << '|' << s << '|' << endl;
+~~~
+Solution: |ABEF|
+

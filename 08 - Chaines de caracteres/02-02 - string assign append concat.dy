@@ -1,4 +1,4 @@
-## Exo: assign, '+', '+=' et appendg
+## Exo: assign, '+', '+=' et append
 Instruction: Indiquer ce que va afficher la séquence d'instructions suivantes : 
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
