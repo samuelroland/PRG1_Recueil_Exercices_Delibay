@@ -4,29 +4,10 @@ Ajouter toutes les parenthèses aux expressions suivantes pour exprimer
 explicitement l'ordre d'évaluation de l'expression qui existe implicitement
 en vertu de l'ordre de priorité des opérateurs. 
 
-Par exemple, l'expression
+TODO: okay ce changement de format ?
 
-~~~cpp
-a + b * c; 
-~~~
-
-doit être ré-écrite 
-
-~~~cpp
-(a + (b * c)); 
-~~~
-
-puisque la multiplication est prioritaire sur l'addition. De même, l'expression
-
-~~~cpp
-a / b * c; 
-~~~
-
-doit être ré-écrite
-
-~~~cpp
-((a / b) * c); 
-~~~
+Par exemple, l'expression `a + b * c` doit être ré-écrite `(a + (b * c))` puisque la multiplication est prioritaire sur l'addition.  
+De même, l'expression `a / b * c` doit être ré-écrite `((a / b) * c)`.
 
 Les opérateurs `/` et `*` de même priorité étant évalués de gauche à droite. Vous pouvez vous aider de la page [C++ Operator Precedence](https://en.cppreference.com/w/cpp/language/operator_precedence) de cppreference.com
 

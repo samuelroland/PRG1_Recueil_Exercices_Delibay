@@ -12,15 +12,16 @@ char z;
 Instruction:
 ~~~cpp
 z = x + 4;
-cout << "1. " << z << endl;
+cout << z << endl; // 1
 ~~~
 Solution: E
+TODO: ok et utile de mettre // 1 pour retirer le numéro de l'output mais garder cette info visible ?
 
 ### Subexo:
 Instruction:
 ~~~cpp
 z = x + 4;
-cout << "2. " << ++z << endl;
+cout << ++z << endl; // 2
 ~~~
 Solution: F
 TODO: okay d'avoir coupé le 1 et 2 comme ça ?
@@ -29,7 +30,7 @@ TODO: okay d'avoir coupé le 1 et 2 comme ça ?
 Instruction:
 ~~~cpp
 z = x + 0;
-cout << "3. " << z << endl;
+cout << z << endl; // 3
 ~~~
 Solution: A
 
@@ -37,6 +38,6 @@ Solution: A
 Instruction:
 ~~~cpp
 z = x + '0';
-cout << "4. " << z << endl;
+cout << z << endl; // 4
 ~~~
 Solution: q
