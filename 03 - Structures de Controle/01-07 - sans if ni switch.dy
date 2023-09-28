@@ -12,6 +12,7 @@ if (i < 1) {
 }
 ~~~
 Solution: b = (i < 1) or (i > 2);
+TODO: add [rm: ] ??
 
 ### Subexo:
 Instruction:

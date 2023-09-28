@@ -60,3 +60,4 @@ Solution:
 - b = a > 0 ? b + 1 : (a == 0 ? 0 : b * 2);
 
 TODO: variante ok ?
+TODO: explanation un peu redondante ???

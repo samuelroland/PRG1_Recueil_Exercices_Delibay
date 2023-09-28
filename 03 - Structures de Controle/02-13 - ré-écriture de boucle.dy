@@ -1,0 +1,111 @@
+## Exo: [open] Ré-écriture de boucles
+Attention, votre code doit être valide quelque soit la valeur de départ de `i` et quelque soit l'utilisation subséquente de la valeur de `i` en sortie de la boucle
+
+Réécrire la boucle suivante avec ...
+TODO: okay cette architecture de consignes ?
+
+### Subexo: une boucle `while`
+
+~~~cpp
+for (; i < 10; ++i) {
+   cout << i << endl;
+}
+~~~
+
+Solution:
+~~~cpp
+while (i < 10) {
+   cout << i << endl;
+   ++i;
+}
+~~~
+
+### Subexo: une boucle `do ... while`
+
+~~~cpp
+for (; i < 10; ++i) {
+   cout << i << endl;
+}
+~~~
+
+Solution:
+~~~cpp
+if (i < 10) {
+   do {
+      cout << i << endl;
+      ++i; 
+   } while (i < 10);
+}
+~~~
+
+
+### Subexo: une boucle `for`
+
+~~~cpp
+while (i-- > 10) {
+   cout << i << endl;
+}
+~~~
+
+Solution:
+~~~cpp
+for (; i-- > 10;) {
+    cout << i << endl;
+}
+~~~
+
+### Subexo: une boucle `do ... while`
+
+~~~cpp
+while (i-- > 10) {
+   cout << i << endl;
+}
+~~~
+
+Solution:
+~~~cpp
+if (i > 10) {
+   do {
+      --i;
+      cout << i << endl;
+   } while (i > 10);
+}
+--i;   // nécessaire pour que i aie la même valeur en fin de boucle
+~~~
+
+
+### Subexo: une boucle `for`
+
+~~~cpp
+do {
+  cout << i << endl;
+  ++i; 
+} while (i < 10);
+~~~
+
+Solution:
+~~~cpp
+cout << i << endl; 
+for (++i; i < 10; ++i) {
+    cout << i << endl;
+}
+~~~
+
+### Subexo: une boucle `while`
+
+~~~cpp
+do {
+  cout << i << endl;
+  ++i; 
+} while (i < 10);
+~~~
+
+Solution:
+~~~cpp
+cout << i << endl; 
+++i;
+while (i < 10) {
+    cout << i << endl;
+    ++i; 
+}
+~~~
