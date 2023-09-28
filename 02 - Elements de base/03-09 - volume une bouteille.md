@@ -4,7 +4,24 @@ Comme illustré ci-dessous, la forme d'une bouteille peut s'approximer par deux 
 
 Ecrire un programme C++ qui, après avoir demandé à l'utilisateur de saisir (en centimètres) les cinq paramètres ci-dessus, calcule puis affiche la contenance en litres de la bouteille.
 
-![bouteille](../assets/02-10_bouteille.jpg)
+![bouteille](assets/03-10_bouteille.jpg)
+
+**Volume d'un cylindre**
+$$\pi * r^2 * h$$
+
+**Volume d'un cône tronqué**
+$$(r1^2 + r2^2 + r1 * r2) * h * \pi / 3$$
+
+Exemple d'exécution :
+~~~
+Entrez le rayon du cylindre 1 [cm]      : 4
+Entrez le rayon du cylindre 2 [cm]      : 1
+Entrez la hauteur du cylindre 1 [cm]    : 12
+Entrez la hauteur du cylindre 2 [cm]    : 1
+Entrez la hauteur du tronc de cone [cm] : 3
+
+La contenance de la bouteille est de 0.67196 litre.
+~~~
 
 <details>
 <summary>Solution</summary>
