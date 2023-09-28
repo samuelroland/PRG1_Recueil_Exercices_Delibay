@@ -12,7 +12,7 @@ Solution: ABC
 ### Subexo:
 Instruction:
 ~~~cpp
-string s = string("A") + "BC";
+string s = string("AB") + 'C';
 ~~~
 Solution: ABC
 

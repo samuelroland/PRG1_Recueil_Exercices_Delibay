@@ -37,3 +37,6 @@ Solution: int
 Instruction: `auto var9 = var1 / var8;`
 Solution: int
 
+### Subexo:
+Instruction: `auto var10 = var1 / var4;`
+Solution: double
