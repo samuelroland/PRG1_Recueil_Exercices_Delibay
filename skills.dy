@@ -1,0 +1,31 @@
+TODO: vraiment utile les sous compétences de Introduction ?
+TODO: complete with the missing subskill
+Skill: Introduction
+Subskill: Histoire du C++
+Subskill: Premier programme en C++
+Subskill: Compilation et IDE
+Subskill: Erreurs de compilation, édition des liens, exécution
+
+Skill: Elements de base
+Subskill: Variables
+Subskill: Types de base
+Subskill: Opérations
+Subskill: Pointeurs et références
+Subskill: Priorité des opérateurs
+Subskill: Commentaires
+
+Skill: Structures de contrôle
+Subskill: Décisions
+Subskill: Boucles
+Subskill: Sauts
+
+Skill: Fonctions
+
+Skill: Types arithmétiques et conversions 
+Subskill: Entiers 
+Subskill: Réels
+Subskill: Conversions entre types
+
+Skill: Structure_Enum
+
+Skill: Chaines de caracteres
