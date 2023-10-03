@@ -27,7 +27,9 @@ if (j == 0) {
    }
 }
 ~~~
-Solution: b = (j == 0) or (i / j >= k);
+Solution:
+- b = (j == 0) or (i / j >= k);
+- b = (j == 0) or !(i / j < k);
 
 ### Subexo:
 Instruction:
