@@ -1,0 +1,108 @@
+Exo: struct - définition
+Indiquer si les définitions proposées sont correctes ou non.
+
+Subexo: 
+~~~cpp
+struct Date {
+   int jour, mois, annee;
+}
+~~~
+Solution: false
+Explanation: manque un `;` après `}`                                     
+
+Subexo: 
+~~~cpp
+struct Date {
+   int jour;
+   int mois;
+   int annee;
+};
+~~~
+Solution: true
+Explanation: chaque type est spécifié                                    
+
+Subexo: 
+~~~cpp
+struct Date {
+   int jour, mois, annee;
+};
+~~~
+Solution: true
+Explanation: le type est commun à tous les membres                       
+
+Subexo: 
+~~~cpp
+struct Date {
+   int jour; mois; annee;
+};
+~~~
+Solution: false
+Explanation: les identifications sont séparés par des `;`                
+
+Subexo: 
+~~~cpp
+struct {
+   int valeur;
+} date;
+~~~
+Solution: true
+Explanation: type *anonyme* et une variable `date`est créée              
+
+Subexo: 
+~~~cpp
+struct Vide {};
+~~~
+Solution: true
+Explanation: un `struct` peut être vide                   
+
+Subexo: 
+~~~cpp
+struct Struct {
+   int  valeur;
+   int* ptr = nullptr;
+};
+~~~
+Solution: true
+Explanation: `ptr`est initialisé ce qui est une bonne chose              
+
+Subexo: 
+~~~cpp
+struct Struct {
+   string text;
+};
+~~~
+Solution: true
+Explanation: un `struc` peut contenir un `string`                        
+
+Subexo: 
+~~~cpp
+struct Details {
+   int valeur;
+};
+
+struct Struct {
+   char    car;
+   Details details;
+};
+~~~
+Solution: true
+Explanation: un `struc` peut contenir un autre `struct`                  
+
+Subexo: 
+~~~cpp
+struct const Struct {
+   int  valeur;
+};
+~~~
+Solution: false
+Explanation: un `struc` n'est pas constant globalement                   
+
+Subexo: 
+~~~cpp
+struct Struct {
+   const char car 'A';
+};
+~~~
+Solution: true
+Explanation: un membre d'un `struc` peut être constant                   
+

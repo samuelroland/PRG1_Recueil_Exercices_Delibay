@@ -1,0 +1,69 @@
+Exo: struct - accès aux membres
+Soient les déclarations ci-dessous.
+
+~~~cpp
+struct Coord {
+   int x, y, z;
+}
+
+struct Cercle {
+   Coord centre;
+   int   rayon;
+}
+
+const Coord origine = {0, 0, 0};
+Cercle cercle = {1, {2, 3, 4}};
+Cercle* ptr = &cercle;
+~~~
+
+La déclaration suivante est-elle correcte ?
+
+Subexo:
+`cout << cercle.rayon;`
+Solution:true  
+Explanation: affiche le rayon => 1  
+
+Subexo:
+`cout << cercle->rayon;`
+Solution:false  
+Explanation: remplacer le `.` par  l'opérateur `->`  
+
+Subexo:
+`cout << *&cercle.rayon;`
+Solution:false  
+Explanation: selon la priorité des opérateurs, `*` est fait avant le `&`  
+
+Subexo:
+`cercle.centre = origine;`
+Solution:true  
+Explanation: le membre `centre` est affectée par les valeurs de `origine` 
+
+Subexo:
+`ptr.rayon = 2;`
+Solution:false  
+Explanation: `ptr` n'a pas de membre, il faut d'abord le déréférencer</br>`(*ptr).rayon = 2;` ou `ptr->rayon = 2;`  
+
+Subexo:
+`*ptr.rayon = 2;`
+Solution:false  
+Explanation: l'opérateur `.` est trop prioritaire</br>`(*ptr).rayon = 2;` ou `ptr->rayon = 2;`  
+
+Subexo:
+`cercle.coord.x = 2;`
+Solution:true  
+Explanation: `cercle.cord` pour descendre dans `Coord` puis `.x` pour accéder au membre `x`.  
+
+Subexo:
+`ptr.coord.x = 2;`
+Solution:false  
+Explanation: il faut déréférencer le `ptr`puis descendre dans la structure</br>`(*ptr).coord.x` ou `ptr->coord.x;`  
+
+Subexo:
+`Coord coord1 = cercle.coord;`
+Solution:true  
+Explanation: `cercle.coord` est utilisée pour initialiser `coord1` 
+
+Subexo:
+`Coord coord2 = ptr->coord;`
+Solution:true  
+Explanation: `cercle.coord` pointée par `ptr` est utilisée pour initialiser `coord2` 

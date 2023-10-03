@@ -1,0 +1,66 @@
+Exo: struct - déclaration
+Soient les `struct` ci-dessous.
+
+~~~cpp
+struct Coord {
+   int x, y, z;
+};
+
+struct Cercle {
+   Coord centre;
+   int   rayon;
+};
+~~~
+
+Que vaut les valeurs des attributs de la structure ? (Pour `cercle` donnez sous le format "<rayon> <coord x> <coord y> <coord z>" et `coord` sous la forme "<coord x> <coord y> <coord z>").
+TODO: est-ce ok ce format ?
+TODO: l'exo a un clairement un problème, centre et rayon sont probablement inversés d'ordre ??? Le format devrait aussi mettre le rayon à la fin du coup.
+
+*Note: si l'expression est incorrecte et ne compile pas indiquez `INCO`.*
+
+Subexo:
+`Cercle cercle = {1, {2, 3, 4}};`
+Solution: 1 2 3 4 
+Explanation: l'agrégat est complet
+
+Subexo:
+`Cercle cercle = {1};`
+Solution: 1 0 0 0 
+Explanation: seul le rayon est renseignl, le reste à `0`   
+
+Subexo:
+`Cercle cercle = {};`
+Solution: 0 0 0 0 
+Explanation: l'agrégat est vide, donc tout est à `0` 
+
+Subexo:
+`Cercle cercle = {1, {2, 3}};`
+Solution: 1 2 3 0 
+Explanation: manque la valeur de Z, => à `0`
+
+Subexo:
+`Cercle cercle = {1, 2, 3, 4};`
+Solution: 1 2 3 4 
+Explanation: tout est renseigné en séquence
+
+Subexo:
+`Coord  coord  = {x=1, y=2, z=3};`
+Solution: INCO
+Explanation: erreur de syntaxe, manque les `.`  exemple : `.x=1`
+
+Subexo:
+`Coord  coord  = {.x=1, .y=2, .z=3};`
+Solution: - 1 2 3 
+Explanation: tout est renseigné par nom   
+
+Subexo:
+`Coord  coord  = {.x=1,  .z=3};`
+Solution: - 1 0 3 
+Explanation: la valeur manquante est déterminée et vaut `0`
+TODO: fix solution format (-)
+
+Subexo:
+`Coord  coord;`
+Solution: ? ? ? ? 
+Explanation: les valeurs sont indéterminées.
+TODO: fix solution format
