@@ -10,9 +10,10 @@ using namespace std;
 void f(int n) {
    n *= n + 1;
    cout << "B : n = " << n << endl;
-
 }
-int main() { int n = 2;
+
+int main() { 
+   int n = 2;
    cout << "A : n = " << n     << endl;
    f(n);
    cout << "C : n = " << 2 * n << endl;
