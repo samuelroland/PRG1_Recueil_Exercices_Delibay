@@ -1,5 +1,4 @@
-## Exo: Evaluations d'expressions (2)
-Instruction:
+Exo: Evaluations d'expressions (2)
 Soient les déclarations suivantes :
 ~~~cpp
 int i = 5, j = 11; 
@@ -7,39 +6,34 @@ int i = 5, j = 11;
 
 Indiquer ce que vaut la variable dans le cas suivant:
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 double x1 = (double) j / i;
 ~~~
 Solution: 2.2
 Explanation: division réelle
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 double x2 = double(j / i);
 ~~~
 Solution: 2.0
 Explanation: division entière
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 double x3 = j / i + .5;
 ~~~
 Solution: 2.5
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 double x4 = (double) j / i + .5;
 ~~~
 Solution: 2.7
 Explanation: division réelle
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 double x5 = (int)( j + .5) / i;
 ~~~

@@ -1,10 +1,9 @@
-## Exo: assign, '+', '+=' et append
-Instruction: Indiquer ce que va afficher la séquence d'instructions suivantes : 
+Exo: assign, '+', '+=' et append
+Indiquer ce que va afficher la séquence d'instructions suivantes : 
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s1 = "ABC";
 string s2;
@@ -13,8 +12,7 @@ cout << '|' << s2 << '|' << endl;
 ~~~
 Solution: |C|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s1 = "ABC";
 string s2;
@@ -23,8 +21,7 @@ cout << '|' << s2 << '|' << endl;
 ~~~
 Solution: ||
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s;
 s.assign("ABC", 2);
@@ -32,8 +29,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |AB|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s;
 s.assign(2, 65);
@@ -41,8 +37,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |AA|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s;
 s.assign(4, '\101');
@@ -50,8 +45,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |AAAA|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s;
 s.assign(4, '\x42');
@@ -59,40 +53,35 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |BBBB|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = string("A") + string("BC");
 cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABC|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 8.	string s = string("A") + "BC";
 cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABC|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = 'A' + string("BC");
 cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABC|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "A" + "BC";
 cout << '|' << s << '|' << endl;
 ~~~
 Solution: COMP
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "AB";
 s += 'C';
@@ -100,8 +89,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABC|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s1 = "";
 string s2 = "123";
@@ -110,8 +98,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~
 Solution: |123|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s1 = "";
 string s2 = "123";
@@ -120,8 +107,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~
 Solution: |23|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s;
 s.append("123", 2);
@@ -129,8 +115,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |12|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s;
 s.append(2, '2');

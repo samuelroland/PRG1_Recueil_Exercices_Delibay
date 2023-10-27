@@ -1,78 +1,65 @@
-## Exo: Identificateurs (noms des variables) en c++
-Instruction: S'agit-il d'un identificateur C++ légal ? Justifiez votre réponse (dans votre tête) si ce n'est pas le cas.
+Exo: Identificateurs (noms des variables) en c++
+S'agit-il d'un identificateur C++ légal ? Justifiez votre réponse (dans votre tête) si ce n'est pas le cas.
 
-### Subexo:
-Instruction: `7`
+TODO: is it supported to have Markdown in titles ?
+
+Subexo: `7`
 Solution: false
 Explanation: Un identificateur ne peut pas commencer par un chiffre
 
-### Subexo:
-Instruction: `james_bond_007`
+Subexo: `james_bond_007`
 Solution: true
 Explanation:
 
-### Subexo:
-Instruction: `james_bond__007`
+Subexo: `james_bond__007`
 Solution: true
 Explanation: Plusieurs _ peuvent se suivre
 
-### Subexo:
-Instruction: `james bond`
+Subexo: `james bond`
 Solution: false
 Explanation: Pas d'espace dans un identificateur
 
-### Subexo:
-Instruction: `sOs`
+Subexo: `sOs`
 Solution: true
 Explanation:
 
-### Subexo:
-Instruction: `SOS`
+Subexo: `SOS`
 Solution: true
 Explanation: Vu que C++ tient compte de la casse, 5) est un identificateur différent de 6) |
 
-### Subexo:
-Instruction: `_007`
+Subexo: `_007`
 Solution: true
 Explanation: Un identificateur peut commencer par _
 
-### Subexo:
-Instruction: `__007`
+Subexo: `__007`
 Solution: true
 Explanation:
 
-### Subexo:
-Instruction: `_007_`
+Subexo: `_007_`
 Solution: true
 Explanation:
 
-### Subexo:
-Instruction: `bond-007`
+Subexo: `bond-007`
 Solution: false
 Explanation: Le caractère '-' n'est pas autorisé
 
-### Subexo:
-Instruction: `tom&jerry`
+Subexo: `tom&jerry`
 Solution: false
 Explanation: Le caractère '&' n'est pas autorisé
 
-### Subexo:
-Instruction: `int`
+Subexo: `int`
 Solution: false
 Explanation: Mot réservé
 
-### Subexo:
-Instruction: `INT`
+Subexo: `INT`
 Solution: true
 Explanation: Déconseillé toutefois !
 
-### Subexo:
-Instruction: `André`
+Subexo: `André`
 Solution: false
 Explanation: Les lettres accentuées ne sont pas autorisées
 
-### Subexo:
-Instruction: `_`
+Subexo: `_`
 Solution: true
 Explanation: … mais pas des plus parlants (!)
 

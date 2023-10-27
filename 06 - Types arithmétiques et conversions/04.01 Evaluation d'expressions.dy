@@ -15,63 +15,55 @@ int main() {
 }
 ~~~
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 3 * 1000 * 1000 * 1000 << endl; // 1
 ~~~
 Solution: -1294967296
 Explanation: Résultat indéfini car multiplication entière induisant un débordement. Le résultat affiché est probable pour un entier codé en complément à 2. 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 3.0 * 1000 * 1000 * 1000 << endl; // 2
 ~~~
 Solution: 3000000000
 Explanation: Résultat juste car multiplications successives réelles
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 100000 * 100000 * 100000.0 << endl; // 3
 ~~~
 Solution: 141006540800000
 Explanation: Résultat indéfini car la première multiplication s'effectue sur les entiers => débordement. Le résultat affiché est probable pour un entier codé en complément à 2.
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 100000.0 * 100000 * 100000 << endl; // 4
 ~~~
 Solution: 1000000000000000
 Explanation: Résultat juste car multiplications successives réelles
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 1E7 + 1.0 << endl; // 5
 ~~~
 Solution: 10000001
 Explanation: Résultat juste.
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 1E7f + 1.f << endl; // 6
 ~~~
 Solution: 10000001
 Explanation: Résultat juste.
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 1E8 + 1.0 << endl; // 7
 ~~~
 Solution: 100000001
 Explanation: Résultat juste.
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 cout << 1E8f + 1.f << endl; // 8
 ~~~

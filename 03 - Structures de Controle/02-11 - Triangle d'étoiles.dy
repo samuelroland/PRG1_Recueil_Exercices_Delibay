@@ -1,4 +1,4 @@
-## Exo: [open] Triangle d'étoiles
+Exo: [open] Triangle d'étoiles
 
 Ecrire un programme C++ qui affiche un triangle comme dans l'exemple ci-dessous.
 La hauteur du triangle (càd le nombre de lignes) est fixée par l’utilisateur.

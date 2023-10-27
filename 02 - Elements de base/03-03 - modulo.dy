@@ -1,6 +1,4 @@
-## Exo: Modulo
-
-Instruction:
+Exo: Modulo
 Soient les déclarations suivantes :
 
 ~~~cpp
@@ -11,32 +9,25 @@ double x = 5, y = 11;
 Quel est le résultat d'évaluation de l'expression suivante ? en cas d'erreur, indiquez `INCO` et justifier de tête la raison.
 TODO: méthode et consigne ok ?
 
-### Subexo: 
-Instruction: `j % i` 
+Subexo: `j % i` 
 Solution: 1
 
-### Subexo: 
-Instruction: `n % i`
+Subexo: `n % i`
 Solution: 0
 
-### Subexo: 
-Instruction: `y % x`
+Subexo: `y % x`
 Solution: INCO
 Explanation: Erreur, le modulo n'est pas défini pour les réels
 
-### Subexo: 
-Instruction: `y % i` 
+Subexo: `y % i` 
 Solution: INCO
 Explanation: Erreur, le modulo n'est pas défini pour les réels
 
-### Subexo: 
-Instruction: `-j % i` 
+Subexo: `-j % i` 
 Solution: -1
 
-### Subexo: 
-Instruction: `n % ++i` 
+Subexo: `n % ++i` 
 Solution: 4
 
-### Subexo: 
-Instruction: `n++ % ++i` 
+Subexo: `n++ % ++i` 
 Solution: 4

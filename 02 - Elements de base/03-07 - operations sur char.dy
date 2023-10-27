@@ -1,6 +1,6 @@
-## Exo: Opérations sur le type char
+Exo: Opérations sur le type char
 
-Instruction: Que va afficher le programme C++ suivant ?
+Que va afficher le programme C++ suivant ?
 
 ~~~cpp
 char x = 'A'; // 65
@@ -8,8 +8,7 @@ char y = '0'; // 48
 char z;
 ~~~
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 z = x + 4;
 cout << z << endl; // 1
@@ -17,8 +16,7 @@ cout << z << endl; // 1
 Solution: E
 TODO: ok et utile de mettre // 1 pour retirer le numéro de l'output mais garder cette info visible ?
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 z = x + 4;
 cout << ++z << endl; // 2
@@ -26,16 +24,14 @@ cout << ++z << endl; // 2
 Solution: F
 TODO: okay d'avoir coupé le 1 et 2 comme ça ?
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 z = x + 0;
 cout << z << endl; // 3
 ~~~
 Solution: A
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 z = x + '0';
 cout << z << endl; // 4

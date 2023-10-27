@@ -1,9 +1,8 @@
-## Exo: Opérateurs
+Exo: Opérateurs
 
-Instruction: Que va afficher le programme C++ suivant ?
+Que va afficher le programme C++ suivant ?
 
-### Subexo: A
-Instruction:
+Subexo: A
 ~~~cpp
 int i, j, k;
 i = 0; k = i++;
@@ -11,8 +10,7 @@ cout << "i = " << i << " k = " << k << endl;
 ~~~
 Solution: i = 1 k = 0
 
-### Subexo: B
-Instruction:
+Subexo: B
 ~~~cpp
 int i, j, k;
 i = 1; k = ++i;
@@ -20,8 +18,7 @@ cout << "i = " << i << " k = " << k << endl;
 ~~~
 Solution: i = 2 k = 2
 
-### Subexo: C
-Instruction:
+Subexo: C
 ~~~cpp
 int i, j, k;
 i = 2; j = 3;
@@ -30,8 +27,7 @@ cout << "i = " << i << " j = " << j << " k = " << k << endl;
 ~~~
 Solution: i = 3 j = 4 k = 8
 
-### Subexo: D
-Instruction:
+Subexo: D
 ~~~cpp
 int i, j, k;
 i = 3; j = 4;

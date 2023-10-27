@@ -1,5 +1,4 @@
-## Exo: switch -> if ... else
-Instruction:
+Exo: switch -> if ... else
 Soit le programme suivant
 
 ~~~cpp
@@ -24,20 +23,20 @@ int main() {
 
 Que va-t-il afficher lorsque l'utilisateur entre comme valeur:
 
-### Subexo: 0
+Subexo: 0
 Solution: AB
 
-### Subexo: 1
+Subexo: 1
 Solution: B
 
-### Subexo: 2
+Subexo: 2
 Solution: B
 
-### Subexo: 4
+Subexo: 4
 Solution: CD
 
-### Subexo: 6
+Subexo: 6
 Solution: D
 
-### Subexo: -1
+Subexo: -1
 Solution: D

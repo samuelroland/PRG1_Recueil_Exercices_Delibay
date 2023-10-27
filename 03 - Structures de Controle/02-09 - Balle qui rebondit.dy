@@ -1,4 +1,4 @@
-## Exo: [open] Balle qui rebondit
+Exo: [open] Balle qui rebondit
 
 Lorsqu'une balle tombe d'une hauteur initiale , sa vitesse d'impact au sol est
 $v_0 = \sqrt{2 \cdot g \cdot h_0}$ (où $g = 9.81 m/s^2$, la constante de gravité terrestre).

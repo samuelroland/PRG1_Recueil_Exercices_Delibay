@@ -1,42 +1,42 @@
-## Exo: Types de base - auto
-Instruction: Indiquez le type de la variable après l'initialisation avec le mot clé auto.
+Exo: Types de base - auto
+Indiquez le type de la variable après l'initialisation avec le mot clé auto.
 
-### Subexo:
-Instruction: `auto var1 = 10;`
+Subexo:
+`auto var1 = 10;`
 Solution: int
 
-### Subexo:
-Instruction: `auto var2 = 1.;`
+Subexo:
+`auto var2 = 1.;`
 Solution: double 
 
-### Subexo:
-Instruction: `auto var3 = '1';`
+Subexo:
+`auto var3 = '1';`
 Solution: char
 
-### Subexo:
-Instruction: `auto var4 = 0.5;`
+Subexo:
+`auto var4 = 0.5;`
 Solution: double 
 
-### Subexo:
-Instruction: `auto var5 = 'r';`
+Subexo:
+`auto var5 = 'r';`
 Solution: char
 
-### Subexo:
-Instruction: `auto var6 = true;`
+Subexo:
+`auto var6 = true;`
 Solution: bool
 
-### Subexo:
-Instruction: `auto var7 = 25.0;`
+Subexo:
+`auto var7 = 25.0;`
 Solution: double 
 
-### Subexo:
-Instruction: `auto var8 = 3;`
+Subexo:
+`auto var8 = 3;`
 Solution: int
 
-### Subexo:
-Instruction: `auto var9 = var1 / var8;`
+Subexo:
+`auto var9 = var1 / var8;`
 Solution: int
 
-### Subexo:
-Instruction: `auto var10 = var1 / var4;`
+Subexo:
+`auto var10 = var1 / var4;`
 Solution: double

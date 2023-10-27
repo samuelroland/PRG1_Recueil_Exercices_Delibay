@@ -1,8 +1,7 @@
-## Exo: `for` (2)
-Instruction: Indiquer combien de fois la boucle est exécutée :
+Exo: `for` (2)
+Indiquer combien de fois la boucle est exécutée :
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 1
 for (int i = 1; i < 10; ++i) {
@@ -11,8 +10,7 @@ for (int i = 1; i < 10; ++i) {
 ~~~
 Solution: 9
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 2
 for (int i = 1; i <= 10; ++i) {
@@ -21,8 +19,7 @@ for (int i = 1; i <= 10; ++i) {
 ~~~
 Solution: 10
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 3
 for (int i = 0; i < 10; ++i) {
@@ -31,8 +28,7 @@ for (int i = 0; i < 10; ++i) {
 ~~~
 Solution: 10
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 4
 for (int i = 10; i > 0; --i) {
@@ -41,8 +37,7 @@ for (int i = 10; i > 0; --i) {
 ~~~
 Solution: 10
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 5
 for (int i = -10; i <= 10; ++i) {
@@ -51,8 +46,7 @@ for (int i = -10; i <= 10; ++i) {
 ~~~
 Solution: 21
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 6
 for (int i = -10; i <= 10; i += 2) {
@@ -61,8 +55,7 @@ for (int i = -10; i <= 10; i += 2) {
 ~~~
 Solution: 11
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 7
 for (int i = -10; i <= 10; i += 3) {

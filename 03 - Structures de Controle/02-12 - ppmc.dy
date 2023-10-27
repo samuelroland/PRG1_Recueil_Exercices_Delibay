@@ -1,4 +1,4 @@
-## Exo: [open] ppmc
+Exo: [open] ppmc
   
 Ecrire un programme C++ permettant de calculer le ppmc (plus petit multiple commun) de deux nombres entiers (> 0) m et n saisis (sur la même ligne) par l'utilisateur.  
 Faire en sorte que la saisie utilisateur soit vérifiée. On suppose toutefois que l'utilisateur entre des valeurs du bon type.

@@ -1,10 +1,10 @@
-## Exo: [open] Ré-écriture de boucles
+Exo: [open] Ré-écriture de boucles
 Attention, votre code doit être valide quelque soit la valeur de départ de `i` et quelque soit l'utilisation subséquente de la valeur de `i` en sortie de la boucle
 
 Réécrire la boucle suivante avec ...
 TODO: okay cette architecture de consignes ?
 
-### Subexo: une boucle `while`
+Subexo: une boucle `while`
 
 ~~~cpp
 for (; i < 10; ++i) {
@@ -20,7 +20,7 @@ while (i < 10) {
 }
 ~~~
 
-### Subexo: une boucle `do ... while`
+Subexo: une boucle `do ... while`
 
 ~~~cpp
 for (; i < 10; ++i) {
@@ -39,7 +39,7 @@ if (i < 10) {
 ~~~
 
 
-### Subexo: une boucle `for`
+Subexo: une boucle `for`
 
 ~~~cpp
 while (i-- > 10) {
@@ -54,7 +54,7 @@ for (; i-- > 10;) {
 }
 ~~~
 
-### Subexo: une boucle `do ... while`
+Subexo: une boucle `do ... while`
 
 ~~~cpp
 while (i-- > 10) {
@@ -74,7 +74,7 @@ if (i > 10) {
 ~~~
 
 
-### Subexo: une boucle `for`
+Subexo: une boucle `for`
 
 ~~~cpp
 do {
@@ -91,7 +91,7 @@ for (++i; i < 10; ++i) {
 }
 ~~~
 
-### Subexo: une boucle `while`
+Subexo: une boucle `while`
 
 ~~~cpp
 do {

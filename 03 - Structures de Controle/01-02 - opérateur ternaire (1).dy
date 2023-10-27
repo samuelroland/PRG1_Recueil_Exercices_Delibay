@@ -1,8 +1,7 @@
-## Exo: if ... else -> ?: 
-Instruction: Réécrivez l'extrait de code suivant en une seule ligne en utilisant un ou des opérateurs ternaires 
+Exo: if ... else -> ?: 
+Réécrivez l'extrait de code suivant en une seule ligne en utilisant un ou des opérateurs ternaires 
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 if (a > 0) {
    b += a;
@@ -22,8 +21,7 @@ b += a > 0 ? a : -2*a;
 b = a > 0 ? b + a : b - 2*a; 
 ~~~
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 if (d == 0.) {
    r = 1e100;
@@ -44,8 +42,7 @@ r = d == 0. ? 1e100 : n/d;
 r = d ? n / d : 1e100; 
 ~~~
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 if (a > 0) {
    b += 1;

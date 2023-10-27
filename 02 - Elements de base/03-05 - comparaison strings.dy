@@ -1,4 +1,4 @@
-# Comparer des chaines de caracatères
+Exo: Comparer des chaines de caracatères
 
 Soient les déclarations suivantes :
 
@@ -14,27 +14,22 @@ string s6 = "Prg1";
 Quel est le résultat d'évaluation de l'expression suivante ? Pourquoi ?
 
 TODO: doit-on forcer le boolean en texte ???
-### Subexo:
-Instruction:  `s1 < s2`
+Subexo: `s1 < s2`
 Solution: true
 Explanation: premier caractère différent '1' < '2'
 
-### Subexo: 
-Instruction:  `s1 > s3`
+Subexo: `s1 > s3`
 Solution: true
 Explanation: premier caractère différent 'r' > 'd'
 
-### Subexo: 
-Instruction:  `s1 < s4`
+Subexo: `s1 < s4`
 Solution: false
 Explanation: on atteint la fin de s4 sans trouver de caractères différents et s4 est plus courte que 
 
-### Subexo: 
-Instruction:  `s3 > s5`
+Subexo: `s3 > s5`
 Solution: true
 Explanation: premier caractère différent 'l' > 'g'
 
-### Subexo: 
-Instruction:  `s1 > s6`
+Subexo: `s1 > s6`
 Solution: true
 Explanation: premier caractère différent 'p' > 'P'

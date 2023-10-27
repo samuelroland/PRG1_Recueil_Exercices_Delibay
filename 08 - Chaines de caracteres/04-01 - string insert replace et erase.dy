@@ -4,7 +4,7 @@ Indiquer ce que va afficher la séquence d'instructions suivantes :
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #1
 string s1 = "ABC";
@@ -14,7 +14,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~
 Solution: |A123BC|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #2
 string s1 = "ABC";
@@ -25,7 +25,7 @@ cout << '|' << s1 << '|' << endl;
 Solution: 
 Explanation: Erreur à l'exécution (NB s1.insert(3, s2) serait OK)
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #3
 string s1 = "ABC";
@@ -35,7 +35,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~
 Solution: |AB23C|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #4
 string s1 = "ABC";
@@ -45,7 +45,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~
 Solution: |AB123C|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #5
 string s = "ABC";
@@ -54,7 +54,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABC12|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #6
 string s = "ABC";
@@ -63,7 +63,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |A33BC|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #7
 string s1 = "ABCDEF";
@@ -73,7 +73,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~
 Solution: |A123DEF|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #8
 string s1 = "ABCDEF";
@@ -83,7 +83,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~ 
 |AB123|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #9
 string s1 = "ABCDEF";
@@ -93,7 +93,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~
 Solution: |A23DEF|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #10
 string s = "ABCDEF";
@@ -102,7 +102,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |AB12F|
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #11
 string s = "ABCDEF";
@@ -113,7 +113,7 @@ Solution: ||
 
 
 	
-### Subexo:
+Subexo:
 ~~~cpp
 // #12
 string s = "ABCDEF";
@@ -123,7 +123,7 @@ cout << '|' << s << '|' << endl;
 Solution: |AB|
 
 
-### Subexo:
+Subexo:
 ~~~cpp
 // #13
 string s = "ABCDEF";

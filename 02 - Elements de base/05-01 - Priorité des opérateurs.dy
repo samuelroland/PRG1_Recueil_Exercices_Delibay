@@ -1,5 +1,4 @@
-## Exo: Priorité des opérateurs
-Instruction:
+Exo: Priorité des opérateurs
 Ajouter toutes les parenthèses aux expressions suivantes pour exprimer
 explicitement l'ordre d'évaluation de l'expression qui existe implicitement
 en vertu de l'ordre de priorité des opérateurs. 
@@ -11,8 +10,7 @@ De même, l'expression `a / b * c` doit être ré-écrite `((a / b) * c)`.
 
 Les opérateurs `/` et `*` de même priorité étant évalués de gauche à droite. Vous pouvez vous aider de la page [C++ Operator Precedence](https://en.cppreference.com/w/cpp/language/operator_precedence) de cppreference.com
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 1 * 2 + 3 / 4 * 2
 ~~~
@@ -21,50 +19,43 @@ TODO: add a way to prefill "1 * 2 + 3 / 4 * 2" in the input, so students don't n
 
 TODO: add variants, or a regex or space remove filter ?? for all solutions here.
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 a + b < c * d + e or f - g + h == i
 ~~~
 Solution: (((a + b) < ((c * d) + e)) or (((f - g) + h) == i))
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 a == b < c
 ~~~
 Solution: (a == (b < c))
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 a < b or c == d and e > b
 ~~~
 Solution: ((a < b) or ((c == d) and (e > b)))
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 ++++a; 
 ~~~
 Solution: (++(++a)) 
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 + a - - b * - c + - + d
 ~~~
 Solution: (((+a) - ((-b) * (-c))) + (-(+d)))
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 a * b % c + d % e / f - g
 ~~~
 Solution: ((((a * b) % c) + ((d % e) / f)) - g)
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp 
 + a - b or c == d > e < f and g
 ~~~

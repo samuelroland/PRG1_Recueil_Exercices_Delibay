@@ -1,62 +1,53 @@
-## Exo: Formatage cout, effet des fonctions de formatage
-Instruction: 
-
+Exo: Formatage cout, effet des fonctions de formatage
 Etant donné:
 ~~~cpp
 int num = -15;
 ~~~
 Quel sera le résultat de l'exécution de l'instruction suivante ?
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 1
 std::cout << std::setfill(':') << std::setw(5) << std::left << num << "*\n";
 ~~~
 Solution: -15::*
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 2
 std::cout << std::setfill(':') << std::setw(5) << std::right << num << "*\n";
 ~~~
 Solution: ::-15*
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 3
 std::cout << std::setfill(':') << std::setw(5) << std::internal << num << "*\n";
 ~~~
 Solution: -::15*
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 4
 std::cout << std::setfill(':') << std::setw(5) << std::boolalpha << std::left << (num < 0) << "*\n";
 ~~~
 Solution: true:*
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 5
 std::cout << std::setfill(':') << std::setw(5) << std::boolalpha << std::left << (num > 0) << "*\n";
 ~~~
 Solution: false*
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 6
 std::cout << std::setfill(':') << std::setw(5) << std::noboolalpha << std::left << (num < 0) << "*\n";
 ~~~
 Solution: 1::::*
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 7
 std::cout << std::setfill(':') << std::setw(5) << std::noboolalpha << std::left << (num > 0) << "*\n";

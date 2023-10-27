@@ -1,4 +1,4 @@
-## Exo: [single] [open]Nombre de jours d'un mois
+Exo: [single] [open]Nombre de jours d'un mois
 
 Compléter le programme C++ ci-dessous pour qu'il affiche combien le mois choisi (1 pour janvier, 2 pour février, etc) compte de jours. Si l'utilisateur entre la valeur 2, le programme doit répondre : "Ce mois comporte 28 ou 29 jours"
 
@@ -27,7 +27,7 @@ Ce mois comporte 31 jours.
 
 **Réalisez ce programme de 3 manières différentes:**
 
-### Subexo: if else
+Subexo: if else
 En utilisant `if ... else`
 Solution:
 ~~~cpp
@@ -40,7 +40,7 @@ if ( no_mois == 2 ) {
 } 
 ~~~
 
-### Subexo: switch
+Subexo: switch
 En utilisant `switch`
 Solution:
 ~~~cpp
@@ -54,7 +54,7 @@ switch (no_mois) {
 }
 ~~~
 
-### Subexo: opérateurs
+Subexo: opérateurs
 En utilisant ni l'un ni l'autre, mais seulement des opérateurs logiques et / ou l'opérateur ternaire
 Solution:
 ~~~cpp

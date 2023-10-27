@@ -1,9 +1,7 @@
-## Exo: Sans if ni switch
-Instruction:
+Exo: Sans if ni switch
 Réécrivez les extraits de code suivants en n'utilisant ni `if` ni `switch` mais exclusivement des opérateurs de comparaisons et des opérateurs logiques.
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 if (i < 1) {
    b = true;
@@ -14,8 +12,7 @@ if (i < 1) {
 Solution: b = (i < 1) or (i > 2);
 TODO: add [rm: ] ??
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 if (j == 0) {
    b = true;
@@ -31,8 +28,7 @@ Solution:
 - b = (j == 0) or (i / j >= k);
 - b = (j == 0) or !(i / j < k);
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 if (j == 0) {
    b = false;

@@ -2,8 +2,7 @@
 
 Que va afficher à l'exécution chacun des groupes d'instructions ci-dessous ?
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 1
 int i = 0;
@@ -13,8 +12,7 @@ while (i - 10) {
 ~~~
 Solution: 2 4 6 8 10
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 2
 int i = 0;
@@ -24,8 +22,7 @@ while (i - 10)
 Solution: 10
 Explanation: Noter que `cout` ne fait pas partie de la boucle
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 3
 int i = 0;
@@ -35,8 +32,7 @@ while (i < 11) {
 ~~~
 Solution: 2 4 6 8 10 12
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 4
 int i = 11;
@@ -48,8 +44,7 @@ Solution: 10 8 6 4 2 0 -2 -4 …
 Explanation: boucle infinie
 TODO: gérer ces valeurs infinies ! (dire "mettez 5 valeurs puis ..." ? ou juste INF)
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 //5
 int i = 12;
@@ -59,8 +54,7 @@ while (i--) {
 ~~~
 Solution: 10 8 6 4 2 0
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 6	
 int i = 0;
@@ -72,8 +66,7 @@ Solution: 1 1 1 1 1 1 1 1 ....
 Explanation: boucle infinie
 TODO: gérer ces valeurs infinies ! (dire "mettez 5 valeurs puis ..." ? ou juste INF)
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 7	
 int i = 1;
@@ -83,8 +76,7 @@ while (i <= 5) {
 ~~~
 Solution: 2 4 6 8 10
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 8
 int i = 1;

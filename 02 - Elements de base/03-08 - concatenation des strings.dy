@@ -1,46 +1,40 @@
-## Exo: Concaténation
+Exo: Concaténation
 
 Indiquer la valeur de la variable `s` après pour la séquence d'instructions suivantes. Si erreur indiquer `INCO`.
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = string("A") + "BC";
 ~~~
 Solution: ABC
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = string("AB") + 'C';
 ~~~
 Solution: ABC
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "A" + "BC";
 ~~~
 Solution: INCO
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "AB";
 s += 'C';
 ~~~
 Solution: ABC
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "AB";
 string ss = s + 5;
 ~~~
 Solution: INCO
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "PRG";
 string s1 = "2023-01-01";

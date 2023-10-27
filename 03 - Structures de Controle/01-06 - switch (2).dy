@@ -1,9 +1,9 @@
-## Exo: [open] if ... else -> switch
+Exo: [open] if ... else -> switch
 TODO: switcher à des non [open] mais en [multiline] et [lang:cpp] ? voir spec.
 
 Réécrivez les extraits de code suivants en utilisant exclusivement la structure de contrôle `switch`. La variable `a` est de type `int`. 
 
-### Subexo:
+Subexo:
 ~~~cpp 
 if (a == 1) {
    cout << "A";
@@ -26,7 +26,7 @@ switch (a) {
 }   
 ~~~
 
-### Subexo:
+Subexo:
 ~~~cpp 
 if (a < 0 or a >= 5) {
    cout << "D";

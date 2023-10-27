@@ -1,8 +1,7 @@
-## Exo: `do while` (1)
-Instruction: Que va afficher à l'exécution le groupe d'instructions ci-dessous ?
+Exo: `do while` (1)
+Que va afficher à l'exécution le groupe d'instructions ci-dessous ?
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 1
 int i = 1;
@@ -13,8 +12,7 @@ do {
 ~~~
 Solution: 1 2 3 4 5 6 7 8 9
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 2
 int i = 0;
@@ -26,8 +24,7 @@ do {
 Solution: 0
 Explanation: la boucle est toujours exécutée au moins une fois
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 3
 int i = 1;
@@ -37,8 +34,7 @@ do {
 ~~~
 Solution: 2 3 4 5 6 7 8 9 10
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 4
 int i = 20;
@@ -49,8 +45,7 @@ do {
 ~~~
 Solution: 20 10 5 2 1
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 // 5
 int i = 20;

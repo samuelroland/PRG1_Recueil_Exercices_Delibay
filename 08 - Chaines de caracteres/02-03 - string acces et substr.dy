@@ -1,18 +1,16 @@
-## Exo: [ ], at, length, size, resize et substr
-Instruction: Indiquer ce que va afficher la séquence d'instructions suivantes : 
+Exo: [ ], at, length, size, resize et substr
+Indiquer ce que va afficher la séquence d'instructions suivantes : 
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 cout << '|' << s[1] << '|' << endl;
 ~~~
 Solution: |B|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s1 = "ABC";
 string s2 = s1[1];
@@ -21,8 +19,7 @@ cout << '|' << s2 << '|' << endl;
 Solution: COMP
 Explanation: Il n'y a pas de constructeur string(char)
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s1 = "ABC";
 string s2;
@@ -31,56 +28,49 @@ cout << '|' << s2 << '|' << endl;
 ~~~
 Solution: |B|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 cout << '|' << s[3] << '|' << endl;
 ~~~
 Solution: |\0|1 
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 cout << '|' << s[4] << '|' << endl;
 ~~~
 Solution: INDE
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 cout << '|' << s.at(3) << '|' << endl;
 ~~~
 Solution: EXEC
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s;
 cout << s.length() << endl;
 ~~~
 Solution: 0
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 cout << s.length() << endl;
 ~~~
 Solution: 3
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 cout << s.size() << endl;
 ~~~
 Solution: 3
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 s.resize(5);
@@ -88,8 +78,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABC\0\0|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 s.resize(2, 'x');
@@ -97,8 +86,7 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |AB|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABC";
 s.resize(4, 'x');
@@ -106,32 +94,28 @@ cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABCx|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr(1, 2) << '|' << endl;
 ~~~
 Solution: |BC|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr(0, 10) << '|' << endl;
 ~~~
 Solution: |ABCDE|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr(3) << '|' << endl;
 ~~~
 Solution: |DE|
 
-### Subexo:
-Instruction:
+Subexo:
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr() << '|' << endl;
