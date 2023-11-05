@@ -40,25 +40,3 @@ Subexo:
 cout << f(-1) + g(-1) + h(-1) + k(-1); //5
 ~~~
 Solution: 0
-
-
-
-int main() {
-    double x1 = f(2),
-           x2 = g(h(2)),
-           x3 = k(g(2) + h(2)),
-           x4 = f(0) + f(1) + f(2),
-           x5 = f(-1) + g(-1) + h(-1) + k(-1);
-       
-   cout << x1 << " ";
-   cout << x2 << " ";
-   cout << x3 << " ";
-   cout << x4 << " ";
-   cout << x5 << " ";
-
-   return EXIT_SUCCESS;
-}
-~~~
-
-Solution: 39 400 92 62 0
-
