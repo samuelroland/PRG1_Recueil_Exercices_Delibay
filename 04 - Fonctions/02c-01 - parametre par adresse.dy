@@ -1,0 +1,58 @@
+Exo: Paramètre par adresse
+
+Que produit le code ci-dessous ?
+
+~~~cpp
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+void adresse(int* param) {
+
+   *param += 1;            // param à l'adresse 0x16eea3648
+
+   cout << "param          : " <<  param << endl;
+   cout << "adr param      : " << &param << endl;
+   cout << "valeur pointee : " << *param << endl;
+}
+
+int main() {
+   int entier = 17;        // entier à l'adresse 0x16eea3698
+   cout << "entier         : " <<  entier << endl;
+   cout << "adr entier     : " << &entier << endl;
+
+   adresse(&entier);
+
+   cout << "entier         : " <<  entier << endl;
+   cout << "adr entier     : " << &entier << endl;
+
+   return EXIT_SUCCESS;
+}
+~~~
+
+Table:
+Header:
+- Element
+- Affichage
+Row:
+- entier
+- [text] 17
+Row:
+- adr entier
+- [text] 0x16eea3698 
+Row:
+- param
+- [text] 0x16eea3698 
+Row:
+- adr param
+- [text] 0x16eea3648
+Row:
+- valeur pointee
+- [text] 18
+Row:
+- entier
+- [text] 18
+Row:
+- adr entier
+- [text] 0x16eea3698
+
