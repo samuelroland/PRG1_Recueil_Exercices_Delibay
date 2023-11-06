@@ -1,0 +1,171 @@
+Exo: [open] Buffer de lecture
+
+TODO: a verifier
+### Objectif
+- Compréhension du buffer de saisie
+
+### A faire
+Déterminer avec précision ce que contient le buffer d'entrée après chacune des instructions du programme ci-dessous.
+
+L'utilisateur saisi dans l'ordre les informations suivantes lorsque le programme est en attente.
+**NB :** `_`  = espace, `RET` = enter et `""` = buffer vide
+
+- `45_23_21.2RET`
+- `4_1_94_3.94_123RET`
+- `7_3.45nRET`
+- `43a1RET`
+
+
+
+| Instruction 	                                         |  Buffer           | Commentaire                              |
+|-------------------------------------------------------|-------------------|------------------------------------------|
+|`cout << "entrer des valeurs : ";`                     |                   |                                          |
+|`while(cin.get() != '\n');`                            |                   |                                          |
+|`cout << endl;`                                        |                   |                                          |
+|`cin  >> a;`                                           |                   |                                          |
+|`cin  >> b;`                                           |                   |                                          |
+|`cin.ignore(numeric_limits<streamsize>::max(), '\n');` |                   |                                          |
+|`cin  >> x;`                                           |                   |                                          |
+|`cin  >> y;`                                           |                   |                                          |
+|`cout << "voulez-vous sauver [o/n] : ";`               |                   |                                          |
+|`cin  >> c;`                                           |                   |                                          |
+|`cout << "sauver : " << c << endl;`                    |                   |                                          |
+|`cin  >> a;`                                           |                   |                                          |
+|`cin  >> b;`                                           |                   |                                          |
+|`cin  >> x;`                                           |                   |                                          |
+
+**Documentation :** [cin.get](https://cplusplus.com/reference/istream/istream/get) et [cin.ignore](https://cplusplus.com/reference/istream/istream/ignore)
+
+### Programme complet
+
+~~~cpp
+#include <cstdlib>   // EXIT_SUCCESS
+#include <iostream>  // cout et cin
+#include <limits>    // numeric_limits<streamsize>::max()
+
+using namespace std;
+
+int main() {
+   int      a, b;
+   double   x, y;
+   char     c;
+   
+   cout << "entrer des valeurs : ";   
+   while(cin.get() != '\n');
+   cout << endl;
+   cin  >> a;
+   cin  >> b;
+   cin.ignore(numeric_limits<streamsize>::max(), '\n');
+   cin  >> x;
+   cin  >> y;
+   cout << "voulez-vous sauver [o/n] : ";
+   cin  >> c;
+   cout << "sauver : " << c << endl;
+   cin  >> a;
+   cin  >> b;
+   cin  >> x;
+
+   cout << "presser ENTER pour quitter";
+   cin.ignore(numeric_limits<streamsize>::max(), '\n');
+   return EXIT_SUCCESS;
+}
+~~~
+
+TODO: Mettre en forme le code avec ~~~cpp ?
+Table:
+Header:
+- Instruction
+- Buffer
+- Commentaire
+Row:
+- `cout << "entrer des valeurs : ";`
+- [text] ""
+- [text] le buffer d'entrée est initialisé ""
+Row:
+- `while(cin.get() != '\n');` 
+- [text] ""
+- [text] les valeurs `45_23_21.2RET` sont perdues
+Row:
+- `cout << endl;` 
+- [text] ""
+- [text] ne modifie pas le buffer d'entrée
+Row:
+- `cin  >> a;`
+- [text] _1_94_3.94_123RET
+- [text] `4_1_94_3.94_123RET` 4 => a
+Row:
+- `cin  >> b;`
+- [text] _94_3.94_123RET
+- [text] `_1_94_3.94_123RET` 1 => b
+Row:
+- `cin.ignore(...);` 
+- [text] ""
+- [text] les valeurs `_94_3.94_123RET` sont perdues
+Row:
+- `cin  >> x;` 
+- [text] _3.45nRET
+- [text] 7_3.45nRET` 7 => x
+Row:
+- `cin  >> y;`
+- [text] nRET
+- [text] `3.45nRET` 3.45 => y
+Row:
+- `cout << "voulez-vous sauver [o/n] : ";`
+- [text] nRET
+- [text] ne modifie pas le buffer d'entrée
+Row:
+- `cin  >> c;`
+- [text] RET
+- [text] `nRET` 'n' => c
+Row:
+- `cout << "sauver : " << c << endl;`
+- [text] RET
+- [text] ne modifie pas le buffer d'entrée
+Row:
+- `cin  >> a;`
+- [text] a1RET
+- [text] `43a1RET` 43 => a
+Row:
+- `cin  >> b;`
+- [text] a1RET
+- [text] 'a' pas un `int` => plante le flux
+Row:
+- `cin  >> x;`
+- [text] a1RET
+- [text] le flux est planté, passe tout droit
+
+
+
+TODO: Solution a enlever
+Solution: 
+
+| Instruction 	                          |  Buffer             | Commentaire                                |
+|----------------------------------------|---------------------|------------------------------------------  |
+|`cout << "entrer des valeurs : ";`      | `""`                | le buffer d'entrée est initialisé ∅        |
+|`while(cin.get() != '\n');`             | `""`                | les valeurs `45_23_21.2RET` sont perdues   |
+|`cout << endl;`                         | `""`                | ne modifie pas le buffer d'entrée          |
+|`cin  >> a;`                            | `_1_94_3.94_123RET` | `4_1_94_3.94_123RET` 4 => a                |
+|`cin  >> b;`                            | `_94_3.94_123RET`  | `_1_94_3.94_123RET` 1 => b                 |
+|`cin.ignore(...);`                      | `""`                | les valeurs `_94_3.94_123RET` sont perdues |
+|`cin  >> x;`                            | `_3.45nRET`        | `7_3.45nRET` 7 => x                        |
+|`cin  >> y;`                            | `nRET`              | `3.45nRET` 3.45 => y                       |
+|`cout << "voulez-vous sauver [o/n] : ";`| `nRET`              | ne modifie pas le buffer d'entrée          |
+|`cin  >> c;`                            | `RET`               | `nRET` 'n' => c                            |
+|`cout << "sauver : " << c << endl;`     | `RET`               | ne modifie pas le buffer d'entrée          |
+|`cin  >> a;`                            | `a1RET`             | `43a1RET` 43 => a                          |
+|`cin  >> b;`                            | `a1RET`             | 'a' pas un `int` => plante le flux         |
+|`cin  >> x;`                            | `a1RET`             | le flux est planté, passe tout droit       |
+
+TODO: Explanation OK?
+Explanation:
+
+1. le buffer ne peut pas être traité s'il est vide (lu, traité, ...)
+1. lorsque le buffer est vide, une lecture met l'exécution du programme en pause jusqu'à la saisie de valeur(s) suivi de ENTER `↩︎`
+1. les espaces précédants une valeurs sont consommés
+1. la lecture s'arrête dès la rencontre d'un caractère incompatible avec le type considéré (12 345 => 12, 345 et 1a2 => 1, 'a', 2)
+1. les valeurs non consommées restent dans le flux (dans cet exemple : lecture de 'n' dans c)
+1. une valeur incompatible avec l'opérateur de flux (ex 'a' => int) fait planter le flux, ce qui ne déclanche pas d'erreur
+1. lorsque le flux est planté, les lectures sont ignorées (le flux n'est pas utilisable, ni même pour vider le flux)
+1. une bonne pratique est de **vider le flux après utilisation** y compris le `↩︎` restant<br>avec typiquement `cin.ignore(numeric_limits<streamsize>::max(), '\n');`
+
+
