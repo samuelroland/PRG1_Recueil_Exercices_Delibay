@@ -5,20 +5,23 @@ int i = 5, j = 11;
 ~~~
 
 Indiquer ce que vaut la variable dans le cas suivant:
+**NB** Noter la réponse sous forme décimale
 
 Subexo:
 ~~~cpp
 double x1 = (double) j / i;
 ~~~
 Solution: 2.2
-Explanation: division réelle
+Explanation: 
+division réelle
 
 Subexo:
 ~~~cpp
 double x2 = double(j / i);
 ~~~
 Solution: 2.0
-Explanation: division entière
+Explanation: 
+division entière
 
 Subexo:
 ~~~cpp
@@ -31,12 +34,14 @@ Subexo:
 double x4 = (double) j / i + .5;
 ~~~
 Solution: 2.7
-Explanation: division réelle
+Explanation: 
+division réelle
 
 Subexo:
 ~~~cpp
 double x5 = (int)( j + .5) / i;
 ~~~
 Solution: 2.0
-Explanation: division entière 
+Explanation:
+division entière 
 
