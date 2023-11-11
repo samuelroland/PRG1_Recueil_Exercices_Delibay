@@ -20,21 +20,25 @@ Subexo:
 cout << f(2); //1
 ~~~
 Solution: 39
+
 Subexo: 
 ~~~cpp
 cout << g(h(2)); //2
 ~~~
 Solution: 400
+
 Subexo:
 ~~~cpp 
 cout << k(g(2) + h(2)); //3
 ~~~
 Solution: 92
+
 Subexo:
 ~~~cpp 
 cout << f(0) + f(1) + f(2); //4
 ~~~
 Solution: 62
+
 Subexo:
 ~~~cpp 
 cout << f(-1) + g(-1) + h(-1) + k(-1); //5

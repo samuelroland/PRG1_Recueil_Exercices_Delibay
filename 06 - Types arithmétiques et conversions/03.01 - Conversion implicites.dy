@@ -1,4 +1,5 @@
 Exo: [open] Conversions implicites
+TODO: transformer en format solution en <nombre de conversions> <valeur final> pour rendre aucorrectible ??
 
 Soient les déclarations suivantes :
 ~~~cpp

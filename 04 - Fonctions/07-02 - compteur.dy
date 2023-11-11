@@ -1,13 +1,13 @@
 Exo: [open] Fonction `compteur`
 Ecrire un programme C++ qui appelle 3 fois la même fonction afficher, cette dernière se contentant d'afficher, à chaque appel, le nombre total de fois où elle a été appelée, sous la forme :
+TODO: qu'est-ce qui était prévu pour cet output ? quote markdown ok ?
 > Appel numéro n
 > 
 On supposera que la fonction afficher est une fonction sans argument ni valeur de retour.
 
-
 Solution:
 
-`Solution 1`
+### Solution 1
 ~~~cpp
 #include <cstdlib>
 #include <iostream>
@@ -29,7 +29,7 @@ void afficher() {
 ~~~
 Première solution (déconseillée toutefois !) : utiliser une variable globale statique (ici déclarée explicitement static de manière à ce qu'elle ne soit visible que dans notre fichier)
 
-`Solution 2`
+### Solution 2
 
 ~~~cpp
 #include <cstdlib>

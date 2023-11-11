@@ -1,6 +1,8 @@
 Exo: [open] Buffer de lecture
 
 TODO: a verifier
+TODO: à réfléchir, peut-être \n est mieux que RET et faut-il voir comment restructurer l'exos (tableau avec buffer et commentaires et conclusions ?)
+
 ### Objectif
 - Compréhension du buffer de saisie
 

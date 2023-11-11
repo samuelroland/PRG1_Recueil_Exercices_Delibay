@@ -2,8 +2,8 @@ Exo: [open] Permutation circulaire droite de 3 réels
 Ecrire un programme C++ qui met à disposition une fonction sans valeur de retour et prenant 3 paramètres de type double permettant d'effectuer une permutation circulaire droite de ces 3 valeurs.
 
 **NB** : ne pas utiliser de référence "&"
- Solution:
 
+Solution:
 ~~~cpp
 #include <cstdlib>
 #include <iostream>

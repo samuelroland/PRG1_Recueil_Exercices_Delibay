@@ -9,7 +9,7 @@ La suite de Fibonacci est décrite comme suit
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 0 | 1 | 1 | 2 | 3 | 5 | 8 | 13| 21| 34| 55|...|
 
-Ecrire une fonction récursive *fibo* qui retourne la valeur de `Fn` pour `n` reçu en paramètre.<br>
+Ecrire une fonction récursive `fibo` qui retourne la valeur de `Fn` pour `n` reçu en paramètre.
 
 
 [Wikipedia - Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_sequence)

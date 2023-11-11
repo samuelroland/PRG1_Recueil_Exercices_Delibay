@@ -24,4 +24,4 @@ int main() {
 Solution: A 2 B 6 C 4
 
 
-Explanation: La fonction reçoit le paramètre `n` par valeur. Il peut être modifié en interne ` n *= n + 1` mais ceci n'a aucun effet sur le paramêtre effectif qui n'est pas modifié. 
+Explanation: La fonction reçoit le paramètre `n` par valeur. Il peut être modifié en interne `n *= n + 1` mais ceci n'a aucun effet sur le paramêtre effectif qui n'est pas modifié. 

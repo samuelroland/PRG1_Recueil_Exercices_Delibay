@@ -1,8 +1,10 @@
 Exo: Types numériques (théorie)
 
+TODO: garder les numéros ou pas ?
+TODO: possible de transformer les 2 premiers sous-exos en un type autocorrigé ?
+
 Subexo: [open]
-TODO: peut-on mettre [open] dans un subexo ?
-1. Dressez la liste exhaustive de tous les types entiers signés supportés par C++ 
+1. Dressez la liste exhaustive de tous les types entiers **signés** supportés par C++ 
 
 Solution: 
 
@@ -29,8 +31,7 @@ long signed int long;
 ~~~
 
 Subexo: [open]
-
-2. Idem pour les entiers non signés 
+2. Dressez la liste exhaustive de tous les types entiers **non signés** supportés par C++ 
 
 Solution: 
 

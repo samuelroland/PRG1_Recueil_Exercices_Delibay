@@ -1,13 +1,8 @@
 Exo: Que produit ce code
-Que produit le code ci-dessous ?
+TODO: faut-il refactoriser cet exo en qqch de plus court et moins chargé ??
+TODO: on pourrait faire un sous exo par question, retirer tout ce qui est affichage. Demander de remplir juste un tableau d'une ligne avec les valeurs de chaque variable ou de celles qui sont pertinentes. Ca me paraît être beaucoup de charge mentale à lire pour pas grand chose.
 
-| # | a | b | c | min | d |
-|---|---|---|---|-----|---|
-| 1)|   |   |   |     |   |
-| 2)|   |   |   |     |   |
-| 3)|   |   |   |     |   |
-| 4)|   |   |   |     |   |
-| 5)|   |   |   |     |   |
+Que produit le code ci-dessous ?
 
 ~~~cpp
 #include <cstdlib>

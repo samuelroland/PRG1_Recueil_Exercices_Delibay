@@ -8,6 +8,9 @@ Ecrivez le code C++ permettant de déterminer le plus petit entier positif qui n
 
 Faites de même pour le type `double`
 
+TODO: hint integration possible ?
+TODO: should we include this in a summary details too ?
+
 Indice:
 
 Si le type `float` utilisait 24 bits de mantisse plutôt que 23, le nombre recherché
