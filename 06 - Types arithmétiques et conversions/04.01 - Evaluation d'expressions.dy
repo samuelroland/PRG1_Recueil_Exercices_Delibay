@@ -1,5 +1,9 @@
 Exo: Evaluation d'expressions
+
+TODO: garder ce code parent ou juste mettre `cout << fixed << setprecision(0);` ?
 TODO: exo en double, garder le int main(){ sans accolade fermante ?
+TODO: add INDEF !
+
 Que va afficher le programme ci-dessous ? Expliquer les résultats obtenus.
 
 ~~~cpp
