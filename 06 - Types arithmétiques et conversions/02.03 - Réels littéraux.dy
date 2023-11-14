@@ -1,4 +1,4 @@
-Exo: [open] Littéraux constants
+Exo: Littéraux constants
 TODO: transformer pour simplification des réponses et aucorrections ?
 
 Pour chacune des lignes de code suivante, indiquez 
@@ -7,93 +7,87 @@ Pour chacune des lignes de code suivante, indiquez
   - quel est le type de la variable
   - ce que la ligne affiche; 
 
+**NB** 
+Pour simplifier les réponses, au lieu de: "long int v2 = 1;", veuillez écrire: "long int 1"
+En cas d'erreur de compilation, écrire: `nocompile`
+
 Subexo: 
 ~~~cpp
 auto v1 = 1.5;        cout << v1 << endl;
 ~~~
 Solution: 
-~~~cpp
-double v1 = 1.5;            // 1.5
-~~~
+double 1.5
 
 Subexo: 
 ~~~cpp
 auto v2 = 1E3;        cout << v2 << endl;
 ~~~
 Solution: 
-~~~cpp
-double v2 = 1E3;            // 1000
-~~~
+double 1E3
 
 Subexo: 
 ~~~cpp
 auto v4 = 12.0u;      cout << v4 << endl;
 ~~~
 Solution: 
-~~~cpp
-// auto v4 = 12.0u;         un réel ne peut être non signé
-~~~
+nocompile       
+Explanation:
+un réel ne peut être non signé
+
 Subexo:
 ~~~cpp
 auto v6 = 1.0L;       cout << v6 << endl;
 ~~~
 Solution:
-~~~cpp 
-long double v6 = 1.0L;      // 1
-~~~
+long double 1.0L
+
 Subexo:
 ~~~cpp
 auto v7 = .5;         cout << v7 << endl;
 ~~~
 Solution:
-~~~cpp 
-double v7 = .5;             // .5
-~~~
+double .5
+
 Subexo:
 ~~~cpp
 auto v8 = 5.;         cout << v8 << endl;
 ~~~
 Solution:
-~~~cpp 
-double v8 = 5.;             // 5
-~~~
+double 5.
+
 Subexo:
 ~~~cpp
 auto v14 = 0x0.2;     cout << v14 << endl;
 ~~~
 Solution:
-~~~cpp 
-//  auto v14 = 0x0.2;         pas le bon format hexfloat
-~~~
+nocompile
+Explanation:
+pas le bon format hexfloat
+
 Subexo:
 ~~~cpp
 auto v17 = 0x1.p0;    cout << v17 << endl;
 ~~~
 Solution:
-~~~cpp 
-double v17 = 0x1.p0;        // 1
-~~~
+double 0x1.p0
+
 Subexo:
 ~~~cpp
 auto v18 = 0x1.8p+0f; cout << v18 << endl;
 ~~~
-Solution:
-~~~cpp 
-float v18 = 0x1.8p+0f;      // 1.5
-~~~
+Solution: 
+float 0x1.8p+0f
+
 Subexo:
 ~~~cpp
 auto v19 = 0x1.p-2L;  cout << v19 << endl;
 ~~~
 Solution:
-~~~cpp 
-long double v19 = 0x1.p-2L; // 0.25
-~~~
+long double 0x1.p-2L
+
 Subexo:
 ~~~cpp
 auto v20 = 0x1.1p+2;  cout << v20 << endl; 
 ~~~
 Solution:
-~~~cpp 
-double v20 = 0x1.1p+2;      // 4.25
-~~~
+double 0x1.1p+2

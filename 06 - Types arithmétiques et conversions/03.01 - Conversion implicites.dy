@@ -1,4 +1,4 @@
-Exo: [open] Conversions implicites
+Exo: Conversions implicites
 TODO: transformer en format solution en <nombre de conversions> <valeur final> pour rendre aucorrectible ??
 
 Soient les déclarations suivantes :
@@ -17,16 +17,16 @@ Pour chacune des variables `r1` à `r5`, indiquez :
 - ce qu'elle vaut et quel est son type
 
 Rappel Les promotions numériques : `bool → int`, `char → int` et `short → int`
-**NB** Noter la réponse sous forme: int r10 = 73;
+
+**NB** Noter la réponse sous forme: `<nombre de conversions> <valeure final>`
+Par exemple `2 long 25` (2 conversions, valeure finale: long r32 = 25)
 
 Subexo: 
 ~~~cpp
 auto r1 = n + c + p;
 ~~~
 Solution: 
-~~~cpp
-long r1 = 82; 
-~~~
+2 long 82
 Explanation:
 r1 = n + c + p
  
@@ -40,9 +40,7 @@ Subexo:
 auto r2 = 2 * x + c;
 ~~~
 Solution: 
-~~~cpp
-float r2 = 67.5;
-~~~
+3 float 67.5
 Explanation:
 r2 = 2*x + c
  
@@ -59,9 +57,7 @@ Subexo:
 auto r3 = (char) n + c;
 ~~~
 Solution: 
-~~~cpp
-int r3 = 72;
-~~~
+2 int 72
 Explanation:
 r3 = (char)n + c
  
@@ -74,9 +70,7 @@ Subexo:
 auto r4 = (float) z + n / 2;
 ~~~
 Solution: 
-~~~cpp
-float r4 = 8.5;
-~~~
+1 float 8.5
 Explanation:
 r4 = (float) z + n / 2
  
@@ -90,10 +84,9 @@ Subexo:
 auto r5 a + b;
 ~~~
 Solution: 
-~~~cpp
-unsigned int r5 = numeric_limits<unsigned>::max(); // probablement 4'294'967'295
-~~~
+1 unsigned 4'294'967'295
 Explanation:
 r5 = a + b;
- 
+
+unsigned int r5 = numeric_limits<unsigned>::max(); soit 4'294'967'295
 1 conversion implicite (de type ajustement de type) de int en unsigned int. 
