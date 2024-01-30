@@ -1,3 +1,4 @@
+Skill: Chaines de caracteres
 Exo: [open] Analyse d'un caractère
 
 Ecrire un programme C++ qui, après avoir demandé à l'utilisateur de saisir un caractère, détermine / affiche à l'écran si ce caractère :

@@ -1,3 +1,4 @@
+Skill: Fonctions
 Exo: [open] Fonction `compteur`
 Ecrire un programme C++ qui appelle 3 fois la même fonction afficher, cette dernière se contentant d'afficher, à chaque appel, le nombre total de fois où elle a été appelée, sous la forme :
 TODO: qu'est-ce qui était prévu pour cet output ? quote markdown ok ?

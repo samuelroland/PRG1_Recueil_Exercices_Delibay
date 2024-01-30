@@ -1,3 +1,4 @@
+Skill: Flux
 Exo: [open] Contrôler et tester les saisies, Gestionnaire d'étudiants
 
 Modifier le programme de l'exercice précédent, 03-02 "Gestionnaire d'étudiants" afin d'y ajouter un contrôle de l'état du flux cin et les valeurs saisies par l'utilisateur.

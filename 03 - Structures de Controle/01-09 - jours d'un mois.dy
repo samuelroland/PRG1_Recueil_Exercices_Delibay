@@ -1,3 +1,4 @@
+Skill: Structures de Controle
 Exo: [single] [open]Nombre de jours d'un mois
 
 Compléter le programme C++ ci-dessous pour qu'il affiche combien le mois choisi (1 pour janvier, 2 pour février, etc) compte de jours. Si l'utilisateur entre la valeur 2, le programme doit répondre : "Ce mois comporte 28 ou 29 jours"

@@ -1,3 +1,4 @@
+Skill: Fonctions
 Exo: Portée des variables
 Déterminer "à la main" ce que va afficher, à l'exécution, le programme ci-dessous.
 Indice: Les variables globales, tout comme les statics valent "0" par défaut.

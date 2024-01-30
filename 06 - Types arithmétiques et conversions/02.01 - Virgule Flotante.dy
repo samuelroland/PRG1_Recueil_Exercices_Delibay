@@ -1,3 +1,4 @@
+Skill: Types arithmétiques et conversions
 Exo: [open] Représentation en virgule flotante
 
 Ecrivez un programme C++ qui demande un nombre réel à l'utilisateur et affiche sa mantisse normalisée et son exposant en base 10 et en base 2.

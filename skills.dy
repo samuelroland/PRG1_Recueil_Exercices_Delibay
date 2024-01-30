@@ -14,12 +14,14 @@ Subskill: Pointeurs et références
 Subskill: Priorité des opérateurs
 Subskill: Commentaires
 
-Skill: Structures de contrôle
+Skill: Structures de Controle
 Subskill: Décisions
 Subskill: Boucles
 Subskill: Sauts
 
 Skill: Fonctions
+
+Skill: Flux
 
 Skill: Types arithmétiques et conversions 
 Subskill: Entiers 
@@ -29,3 +31,4 @@ Subskill: Conversions entre types
 Skill: Structure_Enum
 
 Skill: Chaines de caracteres
+Skill: Tableaux

@@ -1,3 +1,4 @@
+Skill: Flux
 Exo: [open] Formattage cout, Gestionnaire d'étudiants
 
 Écrivez un programme en C++ qui permet à l'utilisateur de saisir les données d'un étudiant, de calculer sa moyenne, et d'afficher un résumé de l'étudiant avec un formatage propre.

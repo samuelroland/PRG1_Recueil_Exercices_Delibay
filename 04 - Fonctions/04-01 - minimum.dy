@@ -1,3 +1,4 @@
+Skill: Fonctions
 Exo: [open] min(a, b, c)
 Écrire une fonction `min` qui retourne le minimum de 3 valeurs reçues en paramètre.
 

@@ -1,3 +1,4 @@
+Skill: Chaines de caracteres
 Exo: [open] Milieu d'une chaîne de caractères
 
 Ecrire une fonction C++ qui prend en paramètre une chaîne de caractères str (de type string) et qui retourne une chaîne de caractères (de type string) contenant :

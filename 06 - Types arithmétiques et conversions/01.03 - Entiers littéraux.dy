@@ -1,3 +1,4 @@
+Skill: Types arithmétiques et conversions
 Exo: Littéraux constants
 TODO: okay de refactoriser la solution (pas l'instruction) en mode "long int v2 = 1;" -> "long int 1" puisque "v2 =" n'apporte rien ? adapter la consigne en conséquence
 TODO: transformer en autocorrectible en même temps

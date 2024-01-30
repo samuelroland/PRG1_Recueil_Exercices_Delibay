@@ -1,3 +1,4 @@
+Skill: Structures de Controle
 Exo: [open] ppmc
   
 Ecrire un programme C++ permettant de calculer le ppmc (plus petit multiple commun) de deux nombres entiers (> 0) m et n saisis (sur la même ligne) par l'utilisateur.  

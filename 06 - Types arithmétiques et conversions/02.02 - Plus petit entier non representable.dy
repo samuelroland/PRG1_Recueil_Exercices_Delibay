@@ -1,3 +1,4 @@
+Skill: Types arithmétiques et conversions
 Exo: [open] Plus petit entier non représentable en type réel
 
 Ecrivez le code C++ permettant de déterminer le plus petit entier positif qui n'est pas représentable exactement en type `float`, en utilisant chacune des 4 méthodes suivantes

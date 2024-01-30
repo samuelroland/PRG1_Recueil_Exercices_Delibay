@@ -1,3 +1,4 @@
+Skill: Chaines de caracteres
 Exo: [open] Compter le nombre d'occurrences
 Ecrire une fonction qui renvoie combien de fois un caractère donné se trouve dans une chaîne de caractères (de type string) donnée.
 
