@@ -26,7 +26,8 @@ Subexo:
 ~~~cpp
 int n = 1, p = 2;
 n = (n + 1) * (n - k);
-~~~Solution: [reference] Non ce n'est pas correcte. La variable `k` n'est psa déclarée.
+~~~
+Solution: [reference] Non ce n'est pas correcte. La variable `k` n'est psa déclarée.
 
 Subexo:
 ~~~cpp
