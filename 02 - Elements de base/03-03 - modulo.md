@@ -7,9 +7,11 @@ int i = 5, j = 11, n = 10;
 double x = 5, y = 11;
 ~~~
 
-Quel est le résultat d'évaluation des expressions suivantes ? en cas d'erreur, indiquez la raison.
+Quel est le résultat d'évaluation des expressions suivantes ?\
+En cas d'erreur, indiquez la raison.\
+**NB** : les questions sont indépendantes les unes des autres.
 
-| # | Expréssion | Résultat |
+| # | Expression | Résultat |
 |---| ---------- |---|
 | 1 | `j % i` | |
 | 2 | `n % i`  | |
@@ -25,7 +27,7 @@ Quel est le résultat d'évaluation des expressions suivantes ? en cas d'erreur,
 <details>
 <summary>Solution</summary>
 
-| # | Expréssion | Résultat |
+| # | Expression | Résultat |
 |---| ---------- |---|
 | 1 | `j % i` | 1 |
 | 2 | `n % i`  | 0 |
