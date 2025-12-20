@@ -43,3 +43,11 @@ s += s1[4];
 s += s1[6];
 ~~~
 Solution: PRG-1
+
+
+Subexo:
+~~~cpp
+string s = "PRG";
+s += to_string(1);
+~~~
+Solution: PRG

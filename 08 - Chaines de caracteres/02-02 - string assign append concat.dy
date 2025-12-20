@@ -4,6 +4,8 @@ Indiquer ce que va afficher la séquence d'instructions suivantes :
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
+TODO: retirer les pipes  car inutile sur ordi ? voir le cas de la réponse vide...
+
 Subexo:
 ~~~cpp
 string s1 = "ABC";
@@ -63,7 +65,7 @@ Solution: |ABC|
 
 Subexo:
 ~~~cpp
-8.	string s = string("A") + "BC";
+string s = string("A") + "BC";
 cout << '|' << s << '|' << endl;
 ~~~
 Solution: |ABC|

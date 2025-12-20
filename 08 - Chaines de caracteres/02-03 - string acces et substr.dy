@@ -34,7 +34,7 @@ Subexo:
 string s = "ABC";
 cout << '|' << s[3] << '|' << endl;
 ~~~
-Solution: |\0|1 
+Solution: |\0|
 
 Subexo:
 ~~~cpp

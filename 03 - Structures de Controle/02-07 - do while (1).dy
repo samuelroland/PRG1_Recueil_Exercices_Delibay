@@ -56,3 +56,16 @@ do {
 } while (i < 0); 
 ~~~
 Solution: 20
+
+Subexo:
+~~~cpp
+// 6
+int i = 20;
+do
+   cout << i << " ";
+   i /= 2;
+while (i < 0); 
+~~~
+
+Solution: COMP
+Explanation: ne compile pas car manque les `{` `}`

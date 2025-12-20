@@ -101,9 +101,18 @@ Explanation: un `struc` n'est pas constant globalement
 Subexo: 
 ~~~cpp
 struct Struct {
-   const char car 'A';
+   const char car = 'A';
 };
 ~~~
 Solution: true
 Explanation: un membre d'un `struc` peut être constant                   
 
+
+Subexo: 
+~~~cpp
+struct Struct {
+   const char c;
+};
+~~~
+Solution: true
+Explanation: correcft mais une variable de ce type doit initialiser la constante c

@@ -36,8 +36,8 @@ Explanation: `=> 3`. Au contraire des pointeurs, aucune syntaxe particulière
 
 Subexo:
 A quoi correspond la déclaration de `ref1`
-Solution: int* const ref1 = &var1
+Solution: int* const ref1 = &var1;
 
 Subexo:
 A quoi correspond la déclaration d'une référence constante
-Solution: const int* const refCste = &var1
+Solution: const int* const refCste = &var1;
