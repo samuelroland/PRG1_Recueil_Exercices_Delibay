@@ -1,11 +1,11 @@
 skill Tableaux
-exo Comparaison d'arrays
+exo [sle] Comparaison d'arrays
 
 Indiquer ce que va afficher chacune des séquences d'instructions suivantes :
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez "Erreur à la compilation", "Erreur à l'exécution" ou "Comportement indéfini"_
 
-subexo
+subexo [eqy]
 ~~~cpp
 // no 1
 array<int, 3> a{1, 2, 3};
@@ -14,7 +14,7 @@ cout "this is " << boolalpha << (a < b);
 ~~~
 sol this is true
 
-subexo
+subexo [khm]
 ~~~cpp
 // no 2
 array<int, 3> a{1, 2, 3};
@@ -29,7 +29,7 @@ exp Erreur à la compilation. Les 2 arrays à comparer doivent être de même lo
 error: invalid operands to binary expression ('array<int, 3>' and 'array<int, 4>')
 ~~~
 
-subexo
+subexo [ekt]
 ~~~cpp
 // no 2
 array<int, 3> a{1, 2, 3};
@@ -42,7 +42,7 @@ exp Erreur à la compilation. Les 2 arrays à comparer doivent être de même ty
 error: invalid operands to binary expression ('array<int, 3>' and 'array<short, 3>')
 ~~~
 
-subexo
+subexo [sbp]
 ~~~cpp
 // no 3
 array<int, 4> a{1, 2, 3};

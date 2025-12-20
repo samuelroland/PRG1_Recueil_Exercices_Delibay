@@ -1,12 +1,12 @@
 skill Tableaux
-exo Tri par insertion
+exo [yxb] Tri par insertion
 
 Effectuez le tri par insertion sur les tableaux suivants. 
 Indiquez l'état du tableau après chaque écriture dans 
 le tableau, même si elle écrit une valeur déjà présente. 
 Indiquez à part le contenu de la variable tampon
 
-subexo
+subexo [zjo]
 table
 header
 - Tableau
@@ -84,7 +84,7 @@ row
 - [text] 5
 - [empty]
 
-subexo
+subexo [oab]
 table
 header
 - Tableau
@@ -176,7 +176,7 @@ row
 - [text] 5
 - [empty]
 
-subexo
+subexo [dlu]
 table
 header
 - Tableau
@@ -280,4 +280,4 @@ row
 - [text] 3
 - [text] 4
 - [text] 5
-- [empty] 
+- [empty]

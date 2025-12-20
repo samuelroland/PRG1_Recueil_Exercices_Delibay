@@ -1,11 +1,11 @@
 skill Tableaux
-exo Déclaration d'arrays
+exo [hjt] Déclaration d'arrays
 
 Indiquer ce que va afficher chacune des séquences d'instructions suivantes :
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez "COMP", "EXEC" ou "UNDE"_
 
-subexo
+subexo [qzo]
 ~~~cpp
 // no 1
 array<int,3> a;
@@ -14,7 +14,7 @@ for(int e : a) cout << e << ' ';
 sol UNDE
 exp Le contenu de a est indéterminé 
 
-subexo
+subexo [kgy]
 ~~~cpp
 // no 2
 array<int,3> a{1,2};
@@ -22,7 +22,7 @@ for(int e : a) cout << e << ' ';
 ~~~
 sol 1 2 0 
 
-subexo
+subexo [svb]
 ~~~cpp
 // no 3
 array<int,3> a{1,2,3,4};
@@ -30,7 +30,7 @@ for(int e : a) cout << e << ' ';
 ~~~
 sol COMP
 
-subexo
+subexo [lcg]
 ~~~cpp
 // no 4
 array<int,3> a{};
@@ -38,7 +38,7 @@ for(int e : a) cout << e << ' ';
 ~~~
 sol 0 0 0
 
-subexo
+subexo [kvz]
 ~~~cpp
 // no 5
 array<string,3> a;

@@ -1,11 +1,11 @@
 skill Tableaux
-exo Déclaration de vector
+exo [xob] Déclaration de vector
 
 Indiquer ce que va afficher chacune des séquences d'instructions suivantes :
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez "Erreur à la compilation", "Erreur à l'exécution" ou "Comportement indéfini"_
 
-subexo
+subexo [ydj]
 ~~~cpp
 // no 1
 vector<int> v(2,3);
@@ -13,7 +13,7 @@ for(auto e : v) cout << e << ' ';
 ~~~
 sol 3 3 
 
-subexo
+subexo [lbt]
 ~~~cpp
 // no 2
 vector<int> v(4);
@@ -21,7 +21,7 @@ for(auto e : v) cout << e << ' ';
 ~~~
 sol 0 0 0 0 
 
-subexo
+subexo [qeg]
 ~~~cpp
 // no 3
 vector<int> v{1, 2, 3};
@@ -29,7 +29,7 @@ for (auto e: v) cout << e << ' ';
 ~~~
 sol 1 2 3 
 
-subexo
+subexo [uya]
 ~~~cpp
 // no 4
 vector<int> v{1., 2, 3};
@@ -43,7 +43,7 @@ vector<int> v{1., 2, 3};
               ^~
 ~~~
 
-subexo
+subexo [muj]
 ~~~cpp
 // no 5
 vector<double> v{1., 2, 3};
@@ -51,20 +51,21 @@ for (auto e: v) cout << e << ' ';
 ~~~
 sol 1 2 3
 
-subexo
+subexo [wmt]
 ~~~cpp
 // no 6
 vector<int> v(3) = {1, 2, 3};
 for (auto e: v) cout << e << ' ';
 ~~~
 sol COMP
+exp
 ~~~
 error: expected ';' at end of declaration
 vector<int> v(3) = {1, 2, 3};
                 ^
 ~~~
 
-subexo
+subexo [dwv]
 ~~~cpp
 // no 7
 vector v{1., 2., 3.};
@@ -73,7 +74,7 @@ for (auto e: v) cout << e << ' ';
 sol 1 2 3
 exp v est de type `vector<double>`
 
-subexo
+subexo [hqj]
 ~~~cpp
 // no 8
 vector v{1., 2, 3};
@@ -87,7 +88,7 @@ vector v{1., 2, 3};
        ^
 ~~~
 
-subexo
+subexo [uie]
 ~~~cpp
 // no 9
 vector v(3,2.f);
@@ -97,13 +98,14 @@ sol 2 2 2
 
 exp v est de type `vector<float>`
 
-subexo
+subexo [syk]
 ~~~cpp
 // no 10
 vector v(4);
 for (auto e: v) cout << e << ' ';
 ~~~
 sol COMP
+exp
 ~~~
 error: no viable constructor or deduction guide for deduction of template arguments of 'vector'
 vector v(4);

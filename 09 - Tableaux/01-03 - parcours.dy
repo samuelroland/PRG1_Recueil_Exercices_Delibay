@@ -1,11 +1,11 @@
 skill Tableaux
-exo Parcours d'un tableau
+exo [kwj] Parcours d'un tableau
 
 Indiquer ce que va afficher chacune des séquences d'instructions suivantes :
 
 _Il se peut qu'une séquence provoque une erreur à l'exécution, aie un comportement indéfini ou cause une boucle infinie. Indiquez-le_ 
 
-subexo
+subexo [fyv]
 ~~~cpp
 // no 1
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -14,7 +14,7 @@ for(size_t i = 1; i <= 3; ++i)
 ~~~
 sol 2 3 4
 
-subexo
+subexo [klm]
 ~~~cpp
 // no 2
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -28,7 +28,7 @@ exp Erreur à l'exécution quand i vaut `size_t(-1) == std::numeric_limits<size_
 5 4 3 2 1 libc++abi: terminating due to uncaught exception of type std::out_of_range: array::at
 ~~~
 
-subexo
+subexo [hdz]
 ~~~cpp
 // no 3
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -37,7 +37,7 @@ for(size_t i = 0; i < a.size(); ++i)
 ~~~
 sol 1 2 3 4 5 
 
-subexo
+subexo [qff]
 ~~~cpp
 // no 4
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -46,7 +46,7 @@ for(size_t i = 3; i < a.size(); --i)
 ~~~
 sol 4 3 2 1  
 
-subexo
+subexo [gwd]
 ~~~cpp
 // no 5
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -55,7 +55,7 @@ for(size_t i = 3; i > 0; --i)
 ~~~
 sol 4 3 2 
 
-subexo
+subexo [uzj]
 ~~~cpp
 // no 6
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -64,7 +64,7 @@ for(int i : a)
 ~~~
 sol 1 2 3 4 5
 
-subexo
+subexo [rnr]
 ~~~cpp
 // no 7
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -75,7 +75,7 @@ for(int i : a)
 ~~~
 sol 1 2 3 4 5 
 
-subexo
+subexo [lml]
 ~~~cpp
 // no 8
 array<int, 5> a{1, 2, 3, 4, 5};
@@ -84,4 +84,4 @@ for(int& i : a)
 for(int i : a)
    cout << i << ' '; 
 ~~~
-sol 1 4 9 16 25 
+sol 1 4 9 16 25

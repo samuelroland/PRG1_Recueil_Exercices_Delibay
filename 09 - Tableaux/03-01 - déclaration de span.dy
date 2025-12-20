@@ -1,11 +1,11 @@
 skill Tableaux
-exo Déclaration de span + subspan
+exo [vfr] Déclaration de span + subspan
 
 Indiquer ce que va afficher chacune des séquences d'instructions suivantes :
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez "Erreur à la compilation", "Erreur à l'exécution" ou "Comportement indéfini"_
 
-subexo
+subexo [dhe]
 ~~~cpp
 // no 1
 vector v { 1, 2, 3, 4, 5, 6, 7, 8};
@@ -14,7 +14,7 @@ for(int e : s) cout << e << ' ';
 ~~~
 sol 1 2 3 
 
-subexo
+subexo [unz]
 ~~~cpp
 // no 2
 vector v { 1, 2, 3, 4, 5, 6, 7, 8};
@@ -23,7 +23,7 @@ for(int e : s) cout << e << ' ';
 ~~~
 sol 3 4 5 6 
 
-subexo
+subexo [rll]
 ~~~cpp
 // no 3
 vector v { 1, 2, 3, 4, 5, 6, 7, 8};
@@ -32,7 +32,7 @@ for(int e : s.subspan(3,2)) cout << e << ' ';
 ~~~
 sol 4 5 
 
-subexo
+subexo [gfd]
 ~~~cpp
 // no 4
 array a { 1, 2, 3, 4, 5, 6, 7, 8};
@@ -41,7 +41,7 @@ for(int e : s) cout << e << ' ';
 ~~~
 sol 4 5 6 7 
 
-subexo
+subexo [roy]
 ~~~cpp
 // no 5
 array a { 1, 2, 3, 4, 5, 6, 7, 8};
@@ -52,7 +52,7 @@ for(int e : s) cout << e << ' ';
 sol UNDE
 exp Comportement indéfini. Le dernier élément du `span` déborde de l'`array` qui parcourt. 
 
-subexo
+subexo [wqp]
 ~~~cpp
 // no 6
 vector v { 1, 2, 3, 4, 5, 6, 7, 8};
@@ -63,7 +63,7 @@ for(size_t i = 0; i < s.size(); ++i)
 sol UNDE
 exp Comportement indéfini. Le dernier élément du `span` déborde du `vector` qui parcourt.
 
-subexo
+subexo [qqu]
 ~~~cpp
 // no 7
 vector v { 1, 2, 3, 4, 5, 6, 7, 8};
@@ -73,4 +73,4 @@ for(size_t i = 0; i < s.size(); ++i)
 ~~~
 
 sol COMP
-exp Erreur à la compilation. En C++20 `std::span` ne possède pas de méthode `at`. Il est actuellement prévu qu'elle soit disponible dans le future standard C++26. 
+exp Erreur à la compilation. En C++20 `std::span` ne possède pas de méthode `at`. Il est actuellement prévu qu'elle soit disponible dans le future standard C++26.

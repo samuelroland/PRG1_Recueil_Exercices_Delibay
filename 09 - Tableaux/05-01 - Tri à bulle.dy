@@ -1,10 +1,10 @@
 skill Tableaux
-exo Tri à bulles
+exo [spk] Tri à bulles
 
 Effectuez le tri à bulles sur les tableaux suivants. 
 Indiquez l'état du tableau après chaque échange 
 
-subexo
+subexo [reh]
 table
 header
 - 3
@@ -43,7 +43,7 @@ row
 - [text] 4
 - [text] 5
 
-subexo
+subexo [xku]
 table
 header
 - 4
@@ -95,7 +95,7 @@ row
 - [text] 4
 - [text] 5
 
-subexo
+subexo [xjv]
 table
 header
 - 5

@@ -1,10 +1,11 @@
 skill Tableaux
-exo Tri par sélection
+exo [rbx] Tri par sélection
 
 Effectuez le tri par sélecton sur les tableaux suivants. 
 Indiquez l'état du tableau après chaque échange, même si
 les 2 éléments échangés sont le même élément. 
 
+subexo [lja]
 table
 header
 - 3
@@ -38,7 +39,7 @@ row
 - [text] 5
 
 
-subexo
+subexo [dwo]
 table
 header
 - 4
@@ -46,7 +47,6 @@ header
 - 2
 - 5
 - 1
-
 row
 - [text] 4
 - [text] 3
@@ -78,7 +78,7 @@ row
 - [text] 4
 - [text] 5
 
-subexo
+subexo [afn]
 table
 header
 - 5
@@ -86,7 +86,6 @@ header
 - 2
 - 3
 - 1
-
 row
 - [text] 5
 - [text] 4
