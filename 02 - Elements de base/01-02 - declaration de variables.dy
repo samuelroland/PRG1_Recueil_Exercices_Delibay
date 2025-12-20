@@ -1,54 +1,54 @@
-Skill: Elements de base
-Exo: Déclaration de variables
+skill Elements de base
+exo Déclaration de variables
 
 Cette séquence d'instructions est-elle correcte ? 
 - Si oui, donnez la valeur de la variable au terme de la séquence (sous le format `n = <valeur>`)
 - Sinon, expliquez pourquoi la séquence n'est pas correcte (et donner `INCO`)
 
-Subexo:
+subexo
 ~~~cpp
 int n = 1;
 n = 1 – 2 * n;
 n = n + 1;
 ~~~
-Solution: [reference] `n = 0`
+sol [reference] `n = 0`
 TODO: possible de développer un check de match exact pour autocorriger si la solution de référence est donnée ? Ou alors faut-il pas de [reference] juste ici ?
 
-Subexo: 
+subexo 
 ~~~cpp
 int n = 1;
 n = n + 1;
 int n = 1 – 2 * n;
 ~~~
-Solution: [reference] Non ce n'est pas correcte. La variable `n` est déclarée deux fois.
+sol [reference] Non ce n'est pas correcte. La variable `n` est déclarée deux fois.
 
-Subexo:
+subexo
 ~~~cpp
 int n = 1, p = 2;
 n = (n + 1) * (n - k);
 ~~~
-Solution: [reference] Non ce n'est pas correcte. La variable `k` n'est psa déclarée.
+sol [reference] Non ce n'est pas correcte. La variable `k` n'est psa déclarée.
 
-Subexo:
+subexo
 ~~~cpp
 int n, m = 0;
 n = 2 * n - 1;
 m = n + 1;
 ~~~
-Solution: [reference] Non ce n'est pas correcte. La variable `n` n'est pas initialisé (donc indéfini)
+sol [reference] Non ce n'est pas correcte. La variable `n` n'est pas initialisé (donc indéfini)
 
-Subexo:
+subexo
 ~~~cpp
 int n = 5, m = 0;
 const int nb_produit = 10;
 m = n * nb_produit - 1;    
 ~~~
-Solution: [reference] `m = 49`
+sol [reference] `m = 49`
 
-Subexo:
+subexo
 ~~~cpp
 int n = 5, m = 0;
 const int nb_produit = 10;
 m = n * nb_produit--;    
 ~~~
-Solution: [reference] Non ce n'est pas correcte. La variable `nb_produit` est défini comme const et ne peux pas être modifiée `nb_produit--`.
+sol [reference] Non ce n'est pas correcte. La variable `nb_produit` est défini comme const et ne peux pas être modifiée `nb_produit--`.

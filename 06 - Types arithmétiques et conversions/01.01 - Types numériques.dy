@@ -1,13 +1,13 @@
-Skill: Types arithmétiques et conversions
-Exo: Types numériques (théorie)
+skill Types arithmétiques et conversions
+exo Types numériques (théorie)
 
 TODO: garder les numéros ou pas ?
 TODO: possible de transformer les 2 premiers sous-exos en un type autocorrigé ?
 
-Subexo: [open]
+subexo [open]
 1. Dressez la liste exhaustive de tous les types entiers **signés** supportés par C++ 
 
-Solution: 
+sol 
 
 ~~~cpp 
 // chaque ligne correspond à un type qui peut s'écrire de diverse manières.
@@ -31,10 +31,10 @@ long signed int long;
 // etcetera ... 
 ~~~
 
-Subexo: [open]
+subexo [open]
 2. Dressez la liste exhaustive de tous les types entiers **non signés** supportés par C++ 
 
-Solution: 
+sol 
 
 ~~~cpp 
 unsigned char;
@@ -44,31 +44,31 @@ unsigned long int; unsigned long;
 unsigned long long int; unsigned long long; 
 ~~~
 
-Subexo: 
+subexo 
 
 3. Le type int est-il signé ou non signé par défaut ?
-Options:
+opt
 - signé
 - non signé
 - cela dépend du compilateur
 
-Solution: signé
+sol signé
 
-Subexo: 
+subexo 
 
 4. Le type char est-il signé ou non signé par défaut ? 
-Options:
+opt
 - signé
 - non signé
 - cela dépend du compilateur
 
-Solution: cela dépend du compilateur
+sol cela dépend du compilateur
 
-Subexo: 
+subexo 
 
 5. Le domaine de définition des entiers est-il fixé par la norme ou dépend-il de l'environnement utilisé ?
-Options:
+opt
 - Par la norme
 - Dépend de l'environnement utilisé
 
-Solution: Dépend de l'environnement utilisé
+sol Dépend de l'environnement utilisé

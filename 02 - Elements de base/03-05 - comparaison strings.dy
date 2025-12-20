@@ -1,5 +1,5 @@
-Skill: Elements de base
-Exo: Comparer des chaines de caracatères
+skill Elements de base
+exo Comparer des chaines de caracatères
 
 Soient les déclarations suivantes :
 
@@ -15,22 +15,22 @@ string s6 = "Prg1";
 Quel est le résultat d'évaluation de l'expression suivante ? Pourquoi ?
 
 TODO: doit-on forcer le boolean en texte ???
-Subexo: `s1 < s2`
-Solution: true
-Explanation: premier caractère différent '1' < '2'
+subexo `s1 < s2`
+sol true
+exp premier caractère différent '1' < '2'
 
-Subexo: `s1 > s3`
-Solution: true
-Explanation: premier caractère différent 'r' > 'd'
+subexo `s1 > s3`
+sol true
+exp premier caractère différent 'r' > 'd'
 
-Subexo: `s1 < s4`
-Solution: false
-Explanation: on atteint la fin de s4 sans trouver de caractères différents et s4 est plus courte que 
+subexo `s1 < s4`
+sol false
+exp on atteint la fin de s4 sans trouver de caractères différents et s4 est plus courte que 
 
-Subexo: `s3 > s5`
-Solution: true
-Explanation: premier caractère différent 'l' > 'g'
+subexo `s3 > s5`
+sol true
+exp premier caractère différent 'l' > 'g'
 
-Subexo: `s1 > s6`
-Solution: true
-Explanation: premier caractère différent 'p' > 'P'
+subexo `s1 > s6`
+sol true
+exp premier caractère différent 'p' > 'P'

@@ -1,50 +1,50 @@
-Skill: Introduction
+skill Introduction
 TODO: c'est une expérimentation avec un nouveau format d'exercice encore non développé et non standardisé, pour le brainstorm. Ne pas essayer d'importer.
 TODO: okay d'avoir changé la première ligne pour retirer cette confusion ?
 
-Exo: Erreur de syntaxe
+exo Erreur de syntaxe
 Le programme ci-dessous contient plusieurs erreurs de syntaxe. Corriger ce code afin qu'il passe la compilation.
 
 TODO: possible d'avoir une explication qui s'affiche à la toute fin ??
-Explanation: *Sans doute écrit trop top le matin ;)*
+exp *Sans doute écrit trop top le matin ;)*
 
 TODO: make sure indentation is correctly managed (see the spec) !
 Fix: [lang:cpp]
 
 Line: /* programme disant 'Hello'
-Solution: 
+sol 
 - /\/\/ ?programme disant 'Hello'/
 - /\/\* ?programme disant 'Hello' ?\*\//
-Explanation: un commentaire "/*" doit être fermé
+exp un commentaire "/*" doit être fermé
 
 Line:include iostream;
-Solution: #include <iostream>
-Explanation: manque un # => **#include** ...
+sol #include <iostream>
+exp manque un # => **#include** ...
 
 Line:use spacename std;
-Solution: using namespace std;
-Explanation: use spacename => us**ing** **name**space
+sol using namespace std;
+exp use spacename => us**ing** **name**space
 
 Line:int Main()
-Solution: /int main() *{/
-Explanation: Main => main et manque une accolade ouvrante (`{`)
+sol /int main() *{/
+exp Main => main et manque une accolade ouvrante (`{`)
 
 Line:	out < 'Hello' < endln;
-Solution:
+sol 
 - cout << "Hello" << endl;
 - cout << "Hello\n";
 TODO: support filters to remove space ? use a regex instead ? leave as is ?
-Explanation: out => **c**out. 'Hello' => "Hello" (*serait ok pour un caractère : 'a'*)
+exp out => **c**out. 'Hello' => "Hello" (*serait ok pour un caractère : 'a'*)
 
 Line:	Return;
-Solution: 
+sol 
 - return 0;
 - return EXIT_SUCCESS;
-Explanation: Return => **r**eturn + valeur. `return EXIT_SUCCESS;` est mieux.
+exp Return => **r**eturn + valeur. `return EXIT_SUCCESS;` est mieux.
 
 Line:end;
-Solution: }
-Explanation: end n'est pas une instruction et il manque une accolade fermante (`}`)
+sol }
+exp end n'est pas une instruction et il manque une accolade fermante (`}`)
 
 
 

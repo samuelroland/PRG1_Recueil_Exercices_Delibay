@@ -1,53 +1,53 @@
-Skill: Structures de Controle
-Exo: `for` (1)
+skill Structures de Controle
+exo `for` (1)
 Que va afficher à l'exécution le groupe d'instructions ci-dessous ?
 
-Subexo:
+subexo
 ~~~cpp
 // 1
 for (int i = 1; i < 10; ++i) {
    cout << i << " ";
 }
 ~~~
-Solution: 1 2 3 4 5 6 7 8 9
+sol 1 2 3 4 5 6 7 8 9
 
-Subexo:
+subexo
 ~~~cpp
 // 2
 for (int i = 1; i < 10; i += 2) {
    cout << i << " ";
 }
 ~~~
-Solution: 1 3 5 7 9
+sol 1 3 5 7 9
 
-Subexo:
+subexo
 ~~~cpp
 // 3
 for (int i = 10; i > 1; --i) {
    cout << i << " ";
 }
 ~~~
-Solution: 10 9 8 7 6 5 4 3 2
+sol 10 9 8 7 6 5 4 3 2
 
-Subexo:
+subexo
 ~~~cpp
 // 4
 for (int i = 0; i < 10; ++i) {
    cout << i << " ";
 }
 ~~~
-Solution: 0 1 2 3 4 5 6 7 8 9
+sol 0 1 2 3 4 5 6 7 8 9
 
-Subexo:
+subexo
 ~~~cpp
 // 5
 for (int i = 1; i < 10; i = i * 2) {
    cout << i << " ";
 }
 ~~~
-Solution: 1 2 4 8
+sol 1 2 4 8
 
-Subexo:
+subexo
 ~~~cpp
 // 6
 for (int i = 1; i < 10; ++i) {
@@ -56,5 +56,5 @@ for (int i = 1; i < 10; ++i) {
    }
 }
 ~~~
-Solution: 2 4 6 8
+sol 2 4 6 8
 

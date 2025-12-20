@@ -1,127 +1,127 @@
-Skill: Chaines de caracteres
-Exo: assign, '+', '+=' et append
+skill Chaines de caracteres
+exo assign, '+', '+=' et append
 Indiquer ce que va afficher la séquence d'instructions suivantes : 
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
 TODO: retirer les pipes  car inutile sur ordi ? voir le cas de la réponse vide...
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2;
 s2.assign(s1, 2, 3);
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: |C|
+sol |C|
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2;
 s2.assign(s1, 3, 2);
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: ||
+sol ||
 
-Subexo:
+subexo
 ~~~cpp
 string s;
 s.assign("ABC", 2);
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |AB|
+sol |AB|
 
-Subexo:
+subexo
 ~~~cpp
 string s;
 s.assign(2, 65);
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |AA|
+sol |AA|
 
-Subexo:
+subexo
 ~~~cpp
 string s;
 s.assign(4, '\101');
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |AAAA|
+sol |AAAA|
 
-Subexo:
+subexo
 ~~~cpp
 string s;
 s.assign(4, '\x42');
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |BBBB|
+sol |BBBB|
 
-Subexo:
+subexo
 ~~~cpp
 string s = string("A") + string("BC");
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC|
+sol |ABC|
 
-Subexo:
+subexo
 ~~~cpp
 string s = string("A") + "BC";
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC|
+sol |ABC|
 
-Subexo:
+subexo
 ~~~cpp
 string s = 'A' + string("BC");
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC|
+sol |ABC|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "A" + "BC";
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: COMP
+sol COMP
 
-Subexo:
+subexo
 ~~~cpp
 string s = "AB";
 s += 'C';
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC|
+sol |ABC|
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "";
 string s2 = "123";
 s1.append(s2);
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: |123|
+sol |123|
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "";
 string s2 = "123";
 s1.append(s2, 1, 3);
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: |23|
+sol |23|
 
-Subexo:
+subexo
 ~~~cpp
 string s;
 s.append("123", 2);
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |12|
+sol |12|
 
-Subexo:
+subexo
 ~~~cpp
 string s;
 s.append(2, '2');
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |22|
+sol |22|

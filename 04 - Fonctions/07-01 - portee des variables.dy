@@ -1,5 +1,5 @@
-Skill: Fonctions
-Exo: Portée des variables
+skill Fonctions
+exo Portée des variables
 Déterminer "à la main" ce que va afficher, à l'exécution, le programme ci-dessous.
 Indice: Les variables globales, tout comme les statics valent "0" par défaut.
 
@@ -41,5 +41,5 @@ int main() {
 }
 ~~~
 
-Solution: resultat : 3
+sol resultat : 3
 

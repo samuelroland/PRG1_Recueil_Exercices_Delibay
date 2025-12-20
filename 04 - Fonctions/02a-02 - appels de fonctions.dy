@@ -1,5 +1,5 @@
-Skill: Fonctions
-Exo: Que produit ce code
+skill Fonctions
+exo Que produit ce code
 
 Déterminer "à la main" ce que poduit ce code.
 
@@ -16,32 +16,32 @@ double g(double x) { return 4 * h(x);           }
 double f(double x) { return g(x) + sqrt(h(x));  }
 ~~~
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << f(2); //1
 ~~~
-Solution: 39
+sol 39
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << g(h(2)); //2
 ~~~
-Solution: 400
+sol 400
 
-Subexo:
+subexo
 ~~~cpp 
 cout << k(g(2) + h(2)); //3
 ~~~
-Solution: 92
+sol 92
 
-Subexo:
+subexo
 ~~~cpp 
 cout << f(0) + f(1) + f(2); //4
 ~~~
-Solution: 62
+sol 62
 
-Subexo:
+subexo
 ~~~cpp 
 cout << f(-1) + g(-1) + h(-1) + k(-1); //5
 ~~~
-Solution: 0
+sol 0

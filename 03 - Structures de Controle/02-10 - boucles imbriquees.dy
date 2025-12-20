@@ -1,9 +1,9 @@
-Skill: Structures de Controle
-Exo: [open] boucles imbriquées
+skill Structures de Controle
+exo [open] boucles imbriquées
 
 Que va afficher à l'exécution chacun des groupes d'instructions ci-dessous ?
 
-Subexo:
+subexo
 ~~~cpp
 // 1
 for (int i = 1; i <= 3; ++i) {
@@ -15,14 +15,14 @@ for (int i = 1; i <= 3; ++i) {
 ~~~
 
 TODO: check [multiline]
-Solution: [multiline]
+sol [multiline]
 ~~~
 ****
 ****
 ****
 ~~~
 
-Subexo:
+subexo
 ~~~cpp
 // 2
 for (int i = 0; i < 4; ++i) {
@@ -33,7 +33,7 @@ for (int i = 0; i < 4; ++i) {
 }
 ~~~
 
-Solution: [multiline]
+sol [multiline]
 ~~~
 ***
 ***
@@ -41,7 +41,7 @@ Solution: [multiline]
 ***
 ~~~
 
-Subexo:
+subexo
 ~~~cpp
 // 3
 for (int i = 1; i <= 4; ++i) {
@@ -52,7 +52,7 @@ for (int i = 1; i <= 4; ++i) {
 }
 ~~~
 
-Solution: [multiline]
+sol [multiline]
 ~~~
 *
 **
@@ -60,7 +60,7 @@ Solution: [multiline]
 ****
 ~~~
 
-Subexo:
+subexo
 ~~~cpp
 // 4
 for (int i = 1; i <= 3; ++i) {
@@ -75,14 +75,14 @@ for (int i = 1; i <= 3; ++i) {
 }
 ~~~
 
-Solution: [multiline]
+sol [multiline]
 ~~~
 xoxox
 xoxox
 xoxox
 ~~~
 
-Subexo:
+subexo
 ~~~cpp
 for (int i = 1; i <= 3; ++i) {
    for (int j = 1; j <= 5; ++j) {
@@ -97,7 +97,7 @@ for (int i = 1; i <= 3; ++i) {
 ~~~
 
 
-Solution: [multiline]
+sol [multiline]
 ~~~
 oxoxo
 xoxox

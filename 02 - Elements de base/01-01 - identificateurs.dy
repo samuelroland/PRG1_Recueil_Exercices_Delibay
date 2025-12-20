@@ -1,66 +1,66 @@
-Skill: Elements de base
-Exo: Identificateurs (noms des variables) en c++
+skill Elements de base
+exo Identificateurs (noms des variables) en c++
 S'agit-il d'un identificateur C++ légal ? Justifiez votre réponse (dans votre tête) si ce n'est pas le cas.
 
 TODO: is it supported to have Markdown in titles ?
 
-Subexo: `7`
-Solution: false
-Explanation: Un identificateur ne peut pas commencer par un chiffre
+subexo `7`
+sol false
+exp Un identificateur ne peut pas commencer par un chiffre
 
-Subexo: `james_bond_007`
-Solution: true
-Explanation:
+subexo `james_bond_007`
+sol true
+exp
 
-Subexo: `james_bond__007`
-Solution: true
-Explanation: Plusieurs _ peuvent se suivre
+subexo `james_bond__007`
+sol true
+exp Plusieurs _ peuvent se suivre
 
-Subexo: `james bond`
-Solution: false
-Explanation: Pas d'espace dans un identificateur
+subexo `james bond`
+sol false
+exp Pas d'espace dans un identificateur
 
-Subexo: `sOs`
-Solution: true
-Explanation:
+subexo `sOs`
+sol true
+exp
 
-Subexo: `SOS`
-Solution: true
-Explanation: Vu que C++ tient compte de la casse, 5) est un identificateur différent de 6) |
+subexo `SOS`
+sol true
+exp Vu que C++ tient compte de la casse, 5) est un identificateur différent de 6) |
 
-Subexo: `_007`
-Solution: true
-Explanation: Un identificateur peut commencer par _
+subexo `_007`
+sol true
+exp Un identificateur peut commencer par _
 
-Subexo: `__007`
-Solution: true
-Explanation:
+subexo `__007`
+sol true
+exp
 
-Subexo: `_007_`
-Solution: true
-Explanation:
+subexo `_007_`
+sol true
+exp
 
-Subexo: `bond-007`
-Solution: false
-Explanation: Le caractère '-' n'est pas autorisé
+subexo `bond-007`
+sol false
+exp Le caractère '-' n'est pas autorisé
 
-Subexo: `tom&jerry`
-Solution: false
-Explanation: Le caractère '&' n'est pas autorisé
+subexo `tom&jerry`
+sol false
+exp Le caractère '&' n'est pas autorisé
 
-Subexo: `int`
-Solution: false
-Explanation: Mot réservé
+subexo `int`
+sol false
+exp Mot réservé
 
-Subexo: `INT`
-Solution: true
-Explanation: Déconseillé toutefois !
+subexo `INT`
+sol true
+exp Déconseillé toutefois !
 
-Subexo: `André`
-Solution: false
-Explanation: Les lettres accentuées ne sont pas autorisées
+subexo `André`
+sol false
+exp Les lettres accentuées ne sont pas autorisées
 
-Subexo: `_`
-Solution: true
-Explanation: … mais pas des plus parlants (!)
+subexo `_`
+sol true
+exp … mais pas des plus parlants (!)
 

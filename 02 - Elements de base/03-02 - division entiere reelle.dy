@@ -1,5 +1,5 @@
-Skill: Elements de base
-Exo: Division entière et réelle
+skill Elements de base
+exo Division entière et réelle
 
 Soient les déclarations suivantes :
 
@@ -12,30 +12,30 @@ double m = 0;
 
 Que vaut la variable m dans le cas ci-dessous ?
 
-Subexo: 
+subexo 
 `m = j / i;`
-Solution: 2
+sol 2
 
-Subexo: 
+subexo 
 `m = y / x;`
-Solution: 2.2 
+sol 2.2 
 
-Subexo: 
+subexo 
 `m = j / i + 1.0;`
-Solution: 3   
+sol 3   
 
-Subexo: 
+subexo 
 `m = y / x + 1;`
-Solution: 3.2 
+sol 3.2 
 
-Subexo: 
+subexo 
 `m = y / x + j / i
-Solution: 4.2 
+sol 4.2 
 
-Subexo: 
+subexo 
 `m = i + y / x;`
-Solution: 7.2 
+sol 7.2 
 
-Subexo: 
+subexo 
 `m = x + j / i;`
-Solution: 7   
+sol 7   

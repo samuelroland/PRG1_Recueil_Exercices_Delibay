@@ -1,64 +1,64 @@
-Skill: Elements de base
-Exo: Pointeurs
+skill Elements de base
+exo Pointeurs
 
 Coder en C++ la question suivante. Indiquer `IMP` si impossible.
 
-Subexo:
+subexo
 Créer une variable `var1` initialisée 1
-Solution: int var1 = 1;
+sol int var1 = 1;
 
-Subexo:
+subexo
 Créer une variable `var2` initialisée 2
-Solution: int var2 = 2;
+sol int var2 = 2;
 
-Subexo:
+subexo
 Créer une constante `cste` initialisée 3
-Solution: const int cste = 3;
+sol const int cste = 3;
 
-Subexo:
+subexo
 Créer un pointeur non constant `ptr1` non initialisé
-Solution: int* ptr1;
+sol int* ptr1;
 
-Subexo:
+subexo
 Créer un pointeur non constant `ptr2` pointant sur `var2`
-Solution: int* ptr2 = &var2;
+sol int* ptr2 = &var2;
 
-Subexo:
+subexo
 Faire pointer `ptr1` sur `var1`
-Solution: ptr1 = &var1;
+sol ptr1 = &var1;
 
-Subexo:
+subexo
 Modifier la valeur pointée par `ptr1` à 2
-Solution: *ptr1 = 2;
+sol *ptr1 = 2;
 
-Subexo:
+subexo
 Afficher "oui" ou "non" selon si `ptr1` et `ptr2` pointent sur la même variable. Ne pas utiliser de `if`.
-Solution: cout << (ptr1 == ptr2 ? "oui" : "non");
+sol cout << (ptr1 == ptr2 ? "oui" : "non");
 
-Subexo:
+subexo
 Afficher "oui" ou "non" selon si `ptr1` et `ptr2` pointent sur une valeur identique. Ne pas utiliser de `if`.
-Solution: cout << (*ptr1 == *ptr2 ? "oui" : "non");
+sol cout << (*ptr1 == *ptr2 ? "oui" : "non");
 
-Subexo:
+subexo
 Afficher l'addresse où se trouve `var1`
-Solution: cout << &var1;
+sol cout << &var1;
 
-Subexo:
+subexo
 Afficher le contenu de `ptr1`  
 Que peut-on dire de cette valeur ?
-Solution: cout << ptr1;
-Explanation: => ce sera la même que `&var1`
+sol cout << ptr1;
+exp => ce sera la même que `&var1`
 
-Subexo:
+subexo
 Afficher l'addresse où se trouve `ptr1`
-Solution: cout << &ptr1;
+sol cout << &ptr1;
 
-Subexo:
+subexo
 Faire pointer `ptr1` sur `cste`
-Solution: IMP
-Explanation: Pas possible, un `int*` (avec droit RW) ne peut pas pointer sur une constante `const int ...`
+sol IMP
+exp Pas possible, un `int*` (avec droit RW) ne peut pas pointer sur une constante `const int ...`
 
-Subexo:
+subexo
 Déclarer un pointer non constant `ptr3` sur `cste`
-Solution: const int* ptr3 = &cste;
+sol const int* ptr3 = &cste;
 

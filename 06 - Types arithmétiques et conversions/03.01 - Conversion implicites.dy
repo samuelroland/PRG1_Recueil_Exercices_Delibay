@@ -1,5 +1,5 @@
-Skill: Types arithmétiques et conversions
-Exo: Conversions implicites
+skill Types arithmétiques et conversions
+exo Conversions implicites
 TODO: transformer en format solution en <nombre de conversions> <valeur final> pour rendre aucorrectible ??
 
 Soient les déclarations suivantes :
@@ -22,13 +22,13 @@ Rappel Les promotions numériques : `bool → int`, `char → int` et `short →
 **NB** Noter la réponse sous forme: `<nombre de conversions> <valeure final>`
 Par exemple `2 long 25` (2 conversions, valeure finale: long r32 = 25)
 
-Subexo: 
+subexo 
 ~~~cpp
 auto r1 = n + c + p;
 ~~~
-Solution: 
+sol 
 2 long 82
-Explanation:
+exp
 r1 = n + c + p
  
 2 conversions implicites : c est tout d'abord converti en int, 
@@ -36,13 +36,13 @@ avant d'être ajouté à n. Le résultat (72), de type int, est
 ensuite converti en long, avant d'être ajouté à p. Au final, 
 on obtient la valeur 82 de type long.
 
-Subexo:
+subexo
 ~~~cpp
 auto r2 = 2 * x + c;
 ~~~
-Solution: 
+sol 
 3 float 67.5
-Explanation:
+exp
 r2 = 2*x + c
  
 3 conversions implicites : c (de type char) est tout d'abord 
@@ -53,26 +53,26 @@ convertit la valeur entière 65 en float, avant de l'ajouter au
 résultat précédent (2.5).
 
 
-Subexo:
+subexo
 ~~~cpp
 auto r3 = (char) n + c;
 ~~~
-Solution: 
+sol 
 2 int 72
-Explanation:
+exp
 r3 = (char)n + c
  
 2 conversions implicites : n est converti explicitement en char (cast)
 c et (char)n sont tous les deux convertis implicitement en int 
 (promotion numérique) avant d'etre additionnés.
 
-Subexo:
+subexo
 ~~~cpp
 auto r4 = (float) z + n / 2;
 ~~~
-Solution: 
+sol 
 1 float 8.5
-Explanation:
+exp
 r4 = (float) z + n / 2
  
 1 conversion implicite : z est tout d'abord converti en float
@@ -80,13 +80,13 @@ r4 = (float) z + n / 2
 effectuée; on obtient la valeur 3. Cette valeur (3) est ensuite 
 convertie en float, avant d'être ajoutée à 5.5. 
 
-Subexo:
+subexo
 ~~~cpp
 auto r5 a + b;
 ~~~
-Solution: 
+sol 
 1 unsigned 4'294'967'295
-Explanation:
+exp
 r5 = a + b;
 
 unsigned int r5 = numeric_limits<unsigned>::max(); soit 4'294'967'295

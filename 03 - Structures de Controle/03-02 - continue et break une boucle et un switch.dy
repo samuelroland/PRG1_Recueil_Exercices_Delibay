@@ -1,5 +1,5 @@
-Skill: Structures de Controle
-Exo: continue et break dans boucle do… while
+skill Structures de Controle
+exo continue et break dans boucle do… while
 
 Qu'affiche le programme suivant ? 
 
@@ -27,4 +27,4 @@ int main() {
 
 Conseil : essayer de trouver la réponse "à la main", puis vérifier votre réponse en l'exécutant pas à pas dans un debugger.
 
-Solution: 12N 2N 34 4 DN 
+sol 12N 2N 34 4 DN 

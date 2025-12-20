@@ -1,5 +1,5 @@
-Skill: Types arithmétiques et conversions
-Exo: Littéraux constants
+skill Types arithmétiques et conversions
+exo Littéraux constants
 TODO: okay de refactoriser la solution (pas l'instruction) en mode "long int v2 = 1;" -> "long int 1" puisque "v2 =" n'apporte rien ? adapter la consigne en conséquence
 TODO: transformer en autocorrectible en même temps
 TODO: a verifier
@@ -14,126 +14,126 @@ On suppose que le compilateur utilise le modèle de donnée LLP64, i.e, avec `in
 **NB** 
 Pour simplifier les réponses, au lieu de: "long int v2 = 1;", veuillez écrire: "long int 1"
 En cas d'erreur de compilation, écrire: `nocompile`
-Subexo: 
+subexo 
 ~~~
   auto v1 = 12u;        cout << v1 << endl;
 ~~~
-Solution: 
+sol 
 unsigned int 12
 
-Subexo: 
+subexo 
 ~~~
   auto v2 = 1L;         cout << v2 << endl;
 ~~~
-Solution: 
+sol 
 long int 1    
 
-Subexo: 
+subexo 
 ~~~  
   auto v3 = 100'000'000'000; cout << v3 << endl;
 ~~~
-Solution: 
+sol 
 long long 100'000'000'000
-Explanation:
+exp
 ou long en LP64, voir int dans un modèle de donnée plus
 exotique. Dans tous les cas, le plus petit type entier capable 
 de stoquer la valeur 100000000000
 
-Subexo: 
+subexo 
 ~~~  
   auto v4 = 0x33;      cout << v4 << endl;
 ~~~
-Solution:                           
+sol                           
 int 51
-Explanation:
+exp
 33 en hexadécimal : 3 * 16 + 3 * 1
 
-Subexo: 
+subexo 
 ~~~  
   auto v5 = 0xefg;     cout << v5 << endl;
 ~~~
-Solution: 
+sol 
 nocompile
-Explanation:
+exp
 `g` n'est pas un chiffre hexadécimal
 
-Subexo: 
+subexo 
 ~~~  
   auto v6 = 0xef;      cout << v6 << endl;
 ~~~
-Solution: 
+sol 
 int 239
-Explanation:
+exp
 ef en hexadécimal : 14 * 16 + 15
 
-Subexo: 
+subexo 
 ~~~  
   auto v7 = 0xEF;      cout << v7 << endl;
 ~~~
-Solution: 
+sol 
 int 239
-Explanation:
+exp
 EF en hexadécimal : 14 * 16 + 15
 
-Subexo: 
+subexo 
 ~~~  
   auto v8 = 08;        cout << v8 << endl;
 ~~~
-Solution: 
+sol 
 nocompile
-Explanation:
+exp
 `8` n'est pas un chiffre octal
 
-Subexo: 
+subexo 
 ~~~  
   auto v9 = 027;       cout << v9 << endl;
 ~~~
-Solution: 
+sol 
 int 23
-Explanation:
+exp
 027 en octal : 2*8+7 
 
-Subexo: 
+subexo 
 ~~~  
   auto v10 = 0xffull;       cout << v10 << endl;
 ~~~
-Solution: 
+sol 
 unsigned long long 255
-Explanation:
+exp
 ff en hexadécimal : 15*16+15
 
-Subexo: 
+subexo 
 ~~~  
   auto v11 = 0xffffffff;       cout << v11 << endl;
 ~~~
-Solution: 
+sol 
 unsigned int 4294967295 
-Explanation:
+exp
 2^32-1, valeur qui n'est pas représentable en signed int
 
-Subexo: 
+subexo 
 ~~~  
   auto v12 = 0x7fffffff;       cout << v12 << endl;
 ~~~
-Solution: 
+sol 
 int 2147483647
-Explanation:
+exp
 2^31-1, le plus grand int représentable
 
-Subexo: 
+subexo 
 ~~~
    auto v13 = 0b010101; cout << v13;
 ~~~
-Solution: 
+sol 
 int 21
-Explanation:
+exp
 010101 en binaire : 0*32 + 1*16 + 0*8 + 1*4 + 0*2 + 1*1
 
-Subexo: 
+subexo 
 ~~~
    auto v14 = 0b101ul; cout << v14;
 ~~~
-Solution: 
+sol 
 unsigned long 5
-Explanation:
+exp
 101 en binaire : 1*4 + 0*2 + 1*1

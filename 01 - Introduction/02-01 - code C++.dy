@@ -1,5 +1,5 @@
-Skill: Introduction
-Exo: [single] [open] 1er code C++
+skill Introduction
+exo [single] [open] 1er code C++
 TODO: est-ce okay ces remaniements de consignes et ajouts de questions plus précises ? (consigne parent, rajouts // 5 et // 1, questions enfants, ` au lieu de *).
 TODO: okay le mode single ?
 
@@ -16,23 +16,23 @@ int main()                                  // 3
     return EXIT_SUCCESS;                    // 6
 }                                           // 4
 ~~~
-Subexo:
+subexo
 A quoi sert la partie `1` et pourquoi spécifiquement ces 2 éléments ?
-Solution:
+sol 
 Ca sert à ajouter des librairies utiles au programme
 - `iostream`  : pour `cout`, `cin`, ...
 - `cstdlib`   : pour `EXIT_SUCCESS`
 
-Subexo:
+subexo
 A quoi sert la partie `2` ?
-Solution:
+sol 
 Utilise l'espace de nommage (namespace en anglais) `std`. Sans quoi, il faudrait écrire
 - `std::cout`
 - `std::endl`
 
-Subexo:
+subexo
 A quoi sert la partie `3` ?
-Solution:
+sol 
 `main` est le nom de la fonction principale (obligatoire)
 - n'a pas de paramètre () /!\ `main(void)` serait faux (du C)
 - retourne un code d'erreur en entier
@@ -40,18 +40,18 @@ Solution:
 TODO: "n'a pas de paramètre" vraiment correct ? si on prend argv et argc...
 TODO: meilleure question possible ou faut-il reformuler la solution ?
 
-Subexo:
+subexo
 Que définit la partie `4` (voir les 2 lignes)?
-Solution: `{ ... }` bloc de la fonction contenant les instructions
+sol `{ ... }` bloc de la fonction contenant les instructions
 
-Subexo:
+subexo
 Qu'écrit-on dans cette zone (partie `5`) de la fonction ? Que faut-il mettre en fin de ligne ?
-Solution: Les instructions, toutes se terminent par un ";"
+sol Les instructions, toutes se terminent par un ";"
 TODO: 2ème question ok ?
 
-Subexo:
+subexo
 Que définit la partie `6` et que signifie `EXIT_SUCCESS` ?
-Solution:
+sol 
 Code d'erreur en fin de fonction.
 **NB**: pas obligatoire pour la fonction "main"
 

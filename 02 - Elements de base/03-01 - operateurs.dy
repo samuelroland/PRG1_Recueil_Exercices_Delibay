@@ -1,38 +1,38 @@
-Skill: Elements de base
-Exo: Opérateurs
+skill Elements de base
+exo Opérateurs
 
 Que va afficher le programme C++ suivant ?
 
-Subexo: A
+subexo A
 ~~~cpp
 int i, j, k;
 i = 0; k = i++;
 cout << "i = " << i << " k = " << k << endl;
 ~~~
-Solution: i = 1 k = 0
+sol i = 1 k = 0
 
-Subexo: B
+subexo B
 ~~~cpp
 int i, j, k;
 i = 1; k = ++i;
 cout << "i = " << i << " k = " << k << endl;
 ~~~
-Solution: i = 2 k = 2
+sol i = 2 k = 2
 
-Subexo: C
+subexo C
 ~~~cpp
 int i, j, k;
 i = 2; j = 3;
 k = i++ * ++j;
 cout << "i = " << i << " j = " << j << " k = " << k << endl;
 ~~~
-Solution: i = 3 j = 4 k = 8
+sol i = 3 j = 4 k = 8
 
-Subexo: D
+subexo D
 ~~~cpp
 int i, j, k;
 i = 3; j = 4;
 k = i *= --j;
 cout << "i = " << i << " j = " << j << " k = " << k << endl;
 ~~~
-Solution: i = 9 j = 3 k = 9
+sol i = 9 j = 3 k = 9

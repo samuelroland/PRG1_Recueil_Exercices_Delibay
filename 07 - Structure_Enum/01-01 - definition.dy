@@ -1,17 +1,17 @@
-Skill: Structure_Enum
-Exo: struct - définition
+skill Structure_Enum
+exo struct - définition
 Indiquer si les définitions proposées sont correctes ou non.
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Date {
    int jour, mois, annee;
 }
 ~~~
-Solution: false
-Explanation: manque un `;` après `}`                                     
+sol false
+exp manque un `;` après `}`                                     
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Date {
    int jour;
@@ -19,63 +19,63 @@ struct Date {
    int annee;
 };
 ~~~
-Solution: true
-Explanation: chaque type est spécifié                                    
+sol true
+exp chaque type est spécifié                                    
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Date {
    int jour, mois, annee;
 };
 ~~~
-Solution: true
-Explanation: le type est commun à tous les membres                       
+sol true
+exp le type est commun à tous les membres                       
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Date {
    int jour; mois; annee;
 };
 ~~~
-Solution: false
-Explanation: les identifications sont séparés par des `;`                
+sol false
+exp les identifications sont séparés par des `;`                
 
-Subexo: 
+subexo 
 ~~~cpp
 struct {
    int valeur;
 } date;
 ~~~
-Solution: true
-Explanation: type *anonyme* et une variable `date`est créée              
+sol true
+exp type *anonyme* et une variable `date`est créée              
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Vide {};
 ~~~
-Solution: true
-Explanation: un `struct` peut être vide                   
+sol true
+exp un `struct` peut être vide                   
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Struct {
    int  valeur;
    int* ptr = nullptr;
 };
 ~~~
-Solution: true
-Explanation: `ptr`est initialisé ce qui est une bonne chose              
+sol true
+exp `ptr`est initialisé ce qui est une bonne chose              
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Struct {
    string text;
 };
 ~~~
-Solution: true
-Explanation: un `struc` peut contenir un `string`                        
+sol true
+exp un `struc` peut contenir un `string`                        
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Details {
    int valeur;
@@ -86,33 +86,33 @@ struct Struct {
    Details details;
 };
 ~~~
-Solution: true
-Explanation: un `struc` peut contenir un autre `struct`                  
+sol true
+exp un `struc` peut contenir un autre `struct`                  
 
-Subexo: 
+subexo 
 ~~~cpp
 struct const Struct {
    int  valeur;
 };
 ~~~
-Solution: false
-Explanation: un `struc` n'est pas constant globalement                   
+sol false
+exp un `struc` n'est pas constant globalement                   
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Struct {
    const char car = 'A';
 };
 ~~~
-Solution: true
-Explanation: un membre d'un `struc` peut être constant                   
+sol true
+exp un membre d'un `struc` peut être constant                   
 
 
-Subexo: 
+subexo 
 ~~~cpp
 struct Struct {
    const char c;
 };
 ~~~
-Solution: true
-Explanation: correcft mais une variable de ce type doit initialiser la constante c
+sol true
+exp correcft mais une variable de ce type doit initialiser la constante c

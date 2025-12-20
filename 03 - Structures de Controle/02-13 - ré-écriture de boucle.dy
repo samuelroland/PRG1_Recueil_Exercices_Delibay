@@ -1,11 +1,11 @@
-Skill: Structures de Controle
-Exo: [open] Ré-écriture de boucles
+skill Structures de Controle
+exo [open] Ré-écriture de boucles
 Attention, votre code doit être valide quelque soit la valeur de départ de `i` et quelque soit l'utilisation subséquente de la valeur de `i` en sortie de la boucle
 
 Réécrire la boucle suivante avec ...
 TODO: okay cette architecture de consignes ?
 
-Subexo: une boucle `while`
+subexo une boucle `while`
 
 ~~~cpp
 for (; i < 10; ++i) {
@@ -13,7 +13,7 @@ for (; i < 10; ++i) {
 }
 ~~~
 
-Solution:
+sol
 ~~~cpp
 while (i < 10) {
    cout << i << endl;
@@ -21,7 +21,7 @@ while (i < 10) {
 }
 ~~~
 
-Subexo: une boucle `do ... while`
+subexo une boucle `do ... while`
 
 ~~~cpp
 for (; i < 10; ++i) {
@@ -29,7 +29,7 @@ for (; i < 10; ++i) {
 }
 ~~~
 
-Solution:
+sol
 ~~~cpp
 if (i < 10) {
    do {
@@ -40,7 +40,7 @@ if (i < 10) {
 ~~~
 
 
-Subexo: une boucle `for`
+subexo une boucle `for`
 
 ~~~cpp
 while (i-- > 10) {
@@ -48,14 +48,14 @@ while (i-- > 10) {
 }
 ~~~
 
-Solution:
+sol
 ~~~cpp
 for (; i-- > 10;) {
     cout << i << endl;
 }
 ~~~
 
-Subexo: une boucle `do ... while`
+subexo une boucle `do ... while`
 
 ~~~cpp
 while (i-- > 10) {
@@ -63,7 +63,7 @@ while (i-- > 10) {
 }
 ~~~
 
-Solution:
+sol
 ~~~cpp
 if (i > 10) {
    do {
@@ -75,7 +75,7 @@ if (i > 10) {
 ~~~
 
 
-Subexo: une boucle `for`
+subexo une boucle `for`
 
 ~~~cpp
 do {
@@ -84,7 +84,7 @@ do {
 } while (i < 10);
 ~~~
 
-Solution:
+sol
 ~~~cpp
 cout << i << endl; 
 for (++i; i < 10; ++i) {
@@ -92,7 +92,7 @@ for (++i; i < 10; ++i) {
 }
 ~~~
 
-Subexo: une boucle `while`
+subexo une boucle `while`
 
 ~~~cpp
 do {
@@ -101,7 +101,7 @@ do {
 } while (i < 10);
 ~~~
 
-Solution:
+sol
 ~~~cpp
 cout << i << endl; 
 ++i;

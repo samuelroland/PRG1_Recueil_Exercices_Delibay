@@ -1,124 +1,124 @@
-Skill: Chaines de caracteres
-Exo: [ ], at, length, size, resize et substr
+skill Chaines de caracteres
+exo [ ], at, length, size, resize et substr
 Indiquer ce que va afficher la séquence d'instructions suivantes : 
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 cout << '|' << s[1] << '|' << endl;
 ~~~
-Solution: |B|
+sol |B|
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2 = s1[1];
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: COMP
-Explanation: Il n'y a pas de constructeur string(char)
+sol COMP
+exp Il n'y a pas de constructeur string(char)
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2;
 s2 = s1[1];
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: |B|
+sol |B|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 cout << '|' << s[3] << '|' << endl;
 ~~~
-Solution: |\0|
+sol |\0|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 cout << '|' << s[4] << '|' << endl;
 ~~~
-Solution: INDE
+sol INDE
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 cout << '|' << s.at(3) << '|' << endl;
 ~~~
-Solution: EXEC
+sol EXEC
 
-Subexo:
+subexo
 ~~~cpp
 string s;
 cout << s.length() << endl;
 ~~~
-Solution: 0
+sol 0
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 cout << s.length() << endl;
 ~~~
-Solution: 3
+sol 3
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 cout << s.size() << endl;
 ~~~
-Solution: 3
+sol 3
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 s.resize(5);
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC\0\0|
+sol |ABC\0\0|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 s.resize(2, 'x');
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |AB|
+sol |AB|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABC";
 s.resize(4, 'x');
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABCx|
+sol |ABCx|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr(1, 2) << '|' << endl;
 ~~~
-Solution: |BC|
+sol |BC|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr(0, 10) << '|' << endl;
 ~~~
-Solution: |ABCDE|
+sol |ABCDE|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr(3) << '|' << endl;
 ~~~
-Solution: |DE|
+sol |DE|
 
-Subexo:
+subexo
 ~~~cpp
 string s = "ABCDE";
 cout << '|' << s.substr() << '|' << endl;
 ~~~
-Solution: |ABCDE|
+sol |ABCDE|

@@ -1,7 +1,7 @@
-Skill: Structures de Controle
-Exo: `while` (2)
+skill Structures de Controle
+exo `while` (2)
 Que va afficher à l'exécution chacun des groupes d'instructions ci-dessous ?
-Subexo:
+subexo
 ~~~cpp
 // 1
 int i = 0;
@@ -9,9 +9,9 @@ while (i <= 5)
    i++;
 cout << i;
 ~~~
-Solution: 6
+sol 6
 
-Subexo:
+subexo
 ~~~cpp
 // 2
 int i = 0, j = 0;
@@ -19,9 +19,9 @@ while (i <= 5)
    i += j++;
 cout << i << ' ' << j;
 ~~~
-Solution: 6 4
+sol 6 4
 
-Subexo:
+subexo
 ~~~cpp
 // 3
 int i = 0, j = 0;
@@ -29,9 +29,9 @@ while (i <= 5)
    i += ++j;
 cout << i << ' ' << j;
 ~~~
-Solution: 6 3
+sol 6 3
 
-Subexo:
+subexo
 ~~~cpp
 // 4
 int i = 0, j = 0;
@@ -39,9 +39,9 @@ while (j <= 5)
    i += j++;
 cout << i << ' ' << j;
 ~~~
-Solution: 15 6
+sol 15 6
 
-Subexo:
+subexo
 ~~~cpp
 //5
 int i = 0, j = 0;
@@ -49,19 +49,19 @@ while (j <= 5)
    i += ++j;
 cout << i << ' ' << j;
 ~~~
-Solution: 21 6
+sol 21 6
 
-Subexo:
+subexo
 ~~~cpp
 // 6
 int i = 0, j = 0;
 while (i <= 5) i += 2; j++;
 cout << i << ' ' << j;
 ~~~
-Solution: 6 1
+sol 6 1
 TODO: make sure this code is not indented ?!! and other exos while like this in while(1)...
 
-Explanation:
+exp
 Notons que proprement indenté, le code est:
 ~~~cpp
 int i = 0, j = 0;

@@ -1,5 +1,5 @@
-Skill: Structures de Controle
-Exo: [open] Tests équivalents ? 
+skill Structures de Controle
+exo [open] Tests équivalents ? 
 
 Les deux extraits de code suivants sont-ils équivalents ? Justifiez votre réponse.
 
@@ -19,4 +19,4 @@ if (prixActuel < 100) {
 }
 ~~~
 
-Solution: Non, si prixActuel == 100, la valeur de nouveauPrix diffère.
+sol Non, si prixActuel == 100, la valeur de nouveauPrix diffère.

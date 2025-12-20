@@ -1,5 +1,5 @@
-Skill: Introduction
-Exo: Cycle de développement
+skill Introduction
+exo Cycle de développement
 
 Dans quel ordre devrait se passer un développement ? Réordonnez ces étapes en donnant la liste des lettres dans l'ordre, séparée d'un espace.
 - A: écriture de code
@@ -8,7 +8,7 @@ Dans quel ordre devrait se passer un développement ? Réordonnez ces étapes en
 - D: compilation
 - E: exécution
 
-Solution: B A D C E
+sol B A D C E
 exp
 1. analyse
 2. écriture de code

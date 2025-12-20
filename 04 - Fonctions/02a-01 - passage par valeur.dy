@@ -1,5 +1,5 @@
-Skill: Fonctions
-Exo: Que produit ce code
+skill Fonctions
+exo Que produit ce code
 
 Déterminer "à la main" ce que va afficher, à l'exécution, le programme ci-dessous.
 
@@ -22,7 +22,7 @@ int main() {
 }
 ~~~
 
-Solution: A 2 B 6 C 4
+sol A 2 B 6 C 4
 
 
-Explanation: La fonction reçoit le paramètre `n` par valeur. Il peut être modifié en interne `n *= n + 1` mais ceci n'a aucun effet sur le paramêtre effectif qui n'est pas modifié. 
+exp La fonction reçoit le paramètre `n` par valeur. Il peut être modifié en interne `n *= n + 1` mais ceci n'a aucun effet sur le paramêtre effectif qui n'est pas modifié. 

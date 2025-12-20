@@ -1,5 +1,5 @@
-Skill: Structure_Enum
-Exo: struct - déclaration
+skill Structure_Enum
+exo struct - déclaration
 Soient les `struct` ci-dessous.
 
 ~~~cpp
@@ -21,66 +21,66 @@ Format attendu:
 - Une valeur indéterminée doit être décrite par `?`
 - Si l'expression est incorrecte et ne compile pas indiquez `COMP`
 
-Subexo:
+subexo
 
 ~~~cpp
 Cercle cercle = {1, {2, 3, 4}};
 ~~~
-Solution: 1 2 3 4 
-Explanation: l'agrégat est complet
+sol 1 2 3 4 
+exp l'agrégat est complet
 
-Subexo:
+subexo
 ```cpp
 Cercle cercle = {1};
 ```
-Solution: 1 0 0 0 
-Explanation: seul le rayon est renseigné, le reste à `0`   
+sol 1 0 0 0 
+exp seul le rayon est renseigné, le reste à `0`   
 
-Subexo:
+subexo
 ```cpp
 Cercle cercle = {};
 ```
-Solution: 0 0 0 0 
-Explanation: l'agrégat est vide, donc tout est à `0` 
+sol 0 0 0 0 
+exp l'agrégat est vide, donc tout est à `0` 
 
-Subexo:
+subexo
 ```cpp
 Cercle cercle = {1, {2, 3}};
 ```
-Solution: 1 2 3 0 
-Explanation: manque la valeur de Z, => à `0`
+sol 1 2 3 0 
+exp manque la valeur de Z, => à `0`
 
-Subexo:
+subexo
 ```cpp
 Cercle cercle = {1, 2, 3, 4};
 ```
-Solution: 1 2 3 4 
-Explanation: tout est renseigné en séquence
+sol 1 2 3 4 
+exp tout est renseigné en séquence
 
-Subexo:
+subexo
 ```cpp
 Coord  coord  = {x=1, y=2, z=3};
 ```
-Solution: COMP
-Explanation: erreur de syntaxe, manque les `.`  exemple : `.x=1`
+sol COMP
+exp erreur de syntaxe, manque les `.`  exemple : `.x=1`
 
-Subexo:
+subexo
 ```cpp
 Coord  coord  = {.x=1, .y=2, .z=3};
 ```
-Solution: 1 2 3 
-Explanation: tout est renseigné par nom   
+sol 1 2 3 
+exp tout est renseigné par nom   
 
-Subexo:
+subexo
 ```cpp
 Coord  coord  = {.x=1,  .z=3};
 ```
-Solution: 1 0 3 
-Explanation: la valeur manquante est déterminée et vaut `0`
+sol 1 0 3 
+exp la valeur manquante est déterminée et vaut `0`
 
-Subexo:
+subexo
 ```cpp
 Coord  coord;
 ```
-Solution: ? ? ? 
-Explanation: les valeurs sont indéterminées.
+sol ? ? ? 
+exp les valeurs sont indéterminées.

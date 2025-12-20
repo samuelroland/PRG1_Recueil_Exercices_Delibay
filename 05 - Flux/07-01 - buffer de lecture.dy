@@ -1,5 +1,5 @@
-Skill: Flux
-Exo: [open] Buffer de lecture
+skill Flux
+exo [open] Buffer de lecture
 
 TODO: a verifier
 TODO: à réfléchir, peut-être \n est mieux que RET et faut-il voir comment restructurer l'exos (tableau avec buffer et commentaires et conclusions ?)
@@ -140,7 +140,7 @@ Row:
 
 
 TODO: Solution a enlever
-Solution: 
+sol 
 
 | Instruction 	                          |  Buffer             | Commentaire                                |
 |----------------------------------------|---------------------|------------------------------------------  |
@@ -160,7 +160,7 @@ Solution:
 |`cin  >> x;`                            | `a1RET`             | le flux est planté, passe tout droit       |
 
 TODO: Explanation OK?
-Explanation:
+exp
 
 1. le buffer ne peut pas être traité s'il est vide (lu, traité, ...)
 1. lorsque le buffer est vide, une lecture met l'exécution du programme en pause jusqu'à la saisie de valeur(s) suivi de ENTER `↩︎`

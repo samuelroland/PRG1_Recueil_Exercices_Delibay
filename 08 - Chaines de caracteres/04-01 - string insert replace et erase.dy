@@ -1,11 +1,11 @@
-Skill: Chaines de caracteres
+skill Chaines de caracteres
 # Insert replace et erase
 
 Indiquer ce que va afficher la séquence d'instructions suivantes : 
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
-Subexo:
+subexo
 ~~~cpp
 // #1
 string s1 = "ABC";
@@ -13,9 +13,9 @@ string s2 = "123";
 s1.insert(1, s2); 
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: |A123BC|
+sol |A123BC|
 
-Subexo:
+subexo
 ~~~cpp
 // #2
 string s1 = "ABC";
@@ -23,10 +23,10 @@ string s2 = "123";
 s1.insert(4, s2); 
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: 
-Explanation: Erreur à l'exécution (NB s1.insert(3, s2) serait OK)
+sol 
+exp Erreur à l'exécution (NB s1.insert(3, s2) serait OK)
 
-Subexo:
+subexo
 ~~~cpp
 // #3
 string s1 = "ABC";
@@ -34,9 +34,9 @@ string s2 = "123";
 s1.insert(2, s2, 1, 2); 
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: |AB23C|
+sol |AB23C|
 
-Subexo:
+subexo
 ~~~cpp
 // #4
 string s1 = "ABC";
@@ -44,27 +44,27 @@ string s2 = "123";
 s1.insert(2, s2, 0, string::npos); 
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: |AB123C|
+sol |AB123C|
 
-Subexo:
+subexo
 ~~~cpp
 // #5
 string s = "ABC";
 s.insert(3, "123", 2); 
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC12|
+sol |ABC12|
 
-Subexo:
+subexo
 ~~~cpp
 // #6
 string s = "ABC";
 s.insert(1, 2, '3'); 
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |A33BC|
+sol |A33BC|
 
-Subexo:
+subexo
 ~~~cpp
 // #7
 string s1 = "ABCDEF";
@@ -72,9 +72,9 @@ string s2 = "123";
 s1.replace(1, 2, s2); 
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: |A123DEF|
+sol |A123DEF|
 
-Subexo:
+subexo
 ~~~cpp
 // #8
 string s1 = "ABCDEF";
@@ -84,7 +84,7 @@ cout << '|' << s1 << '|' << endl;
 ~~~ 
 |AB123|
 
-Subexo:
+subexo
 ~~~cpp
 // #9
 string s1 = "ABCDEF";
@@ -92,44 +92,44 @@ string s2 = "123";
 s1.replace(1, 2, s2, 1, 2); 
 cout << '|' << s1 << '|' << endl;
 ~~~
-Solution: |A23DEF|
+sol |A23DEF|
 
-Subexo:
+subexo
 ~~~cpp
 // #10
 string s = "ABCDEF";
 s.replace(2, 3, "123", 2); 
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |AB12F|
+sol |AB12F|
 
-Subexo:
+subexo
 ~~~cpp
 // #11
 string s = "ABCDEF";
 s.erase(); 
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: ||
+sol ||
 
 
 	
-Subexo:
+subexo
 ~~~cpp
 // #12
 string s = "ABCDEF";
 s.erase(2); 
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |AB|
+sol |AB|
 
 
-Subexo:
+subexo
 ~~~cpp
 // #13
 string s = "ABCDEF";
 s.erase(2, 2); 
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABEF|
+sol |ABEF|
 

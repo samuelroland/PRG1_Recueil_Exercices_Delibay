@@ -1,66 +1,66 @@
-Skill: Structures de Controle
-Exo: `for` (2)
+skill Structures de Controle
+exo `for` (2)
 Indiquer combien de fois la boucle est exécutée :
 
-Subexo:
+subexo
 ~~~cpp
 // 1
 for (int i = 1; i < 10; ++i) {
    // le corps de la boucle ne modifie pas i et ne saute pas
 }
 ~~~
-Solution: 9
+sol 9
 
-Subexo:
+subexo
 ~~~cpp
 // 2
 for (int i = 1; i <= 10; ++i) {
    // le corps de la boucle ne modifie pas i et ne saute pas
 }
 ~~~
-Solution: 10
+sol 10
 
-Subexo:
+subexo
 ~~~cpp
 // 3
 for (int i = 0; i < 10; ++i) {
    // le corps de la boucle ne modifie pas i et ne saute pas
 }
 ~~~
-Solution: 10
+sol 10
 
-Subexo:
+subexo
 ~~~cpp
 // 4
 for (int i = 10; i > 0; --i) {
    // le corps de la boucle ne modifie pas i et ne saute pas
 }
 ~~~
-Solution: 10
+sol 10
 
-Subexo:
+subexo
 ~~~cpp
 // 5
 for (int i = -10; i <= 10; ++i) {
    // le corps de la boucle ne modifie pas i et ne saute pas
 }
 ~~~
-Solution: 21
+sol 21
 
-Subexo:
+subexo
 ~~~cpp
 // 6
 for (int i = -10; i <= 10; i += 2) {
    // le corps de la boucle ne modifie pas i et ne saute pas
 }
 ~~~
-Solution: 11
+sol 11
 
-Subexo:
+subexo
 ~~~cpp
 // 7
 for (int i = -10; i <= 10; i += 3) {
    // le corps de la boucle ne modifie pas i et ne saute pas
 }
 ~~~
-Solution: 7
+sol 7

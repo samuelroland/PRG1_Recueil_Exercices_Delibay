@@ -1,8 +1,8 @@
-Skill: Structures de Controle
-Exo: `do while` (1)
+skill Structures de Controle
+exo `do while` (1)
 Que va afficher à l'exécution le groupe d'instructions ci-dessous ?
 
-Subexo:
+subexo
 ~~~cpp
 // 1
 int i = 1;
@@ -11,9 +11,9 @@ do {
    ++i;
 } while (i < 10); 
 ~~~
-Solution: 1 2 3 4 5 6 7 8 9
+sol 1 2 3 4 5 6 7 8 9
 
-Subexo:
+subexo
 ~~~cpp
 // 2
 int i = 0;
@@ -22,10 +22,10 @@ do {
    ++i;
 } while (i < 0); 
 ~~~
-Solution: 0
-Explanation: la boucle est toujours exécutée au moins une fois
+sol 0
+exp la boucle est toujours exécutée au moins une fois
 
-Subexo:
+subexo
 ~~~cpp
 // 3
 int i = 1;
@@ -33,9 +33,9 @@ do {
    cout << ++i << " ";
 } while (i < 10); 
 ~~~
-Solution: 2 3 4 5 6 7 8 9 10
+sol 2 3 4 5 6 7 8 9 10
 
-Subexo:
+subexo
 ~~~cpp
 // 4
 int i = 20;
@@ -44,9 +44,9 @@ do {
    i /= 2;
 } while (i > 0); 
 ~~~
-Solution: 20 10 5 2 1
+sol 20 10 5 2 1
 
-Subexo:
+subexo
 ~~~cpp
 // 5
 int i = 20;
@@ -55,9 +55,9 @@ do {
    i /= 2;
 } while (i < 0); 
 ~~~
-Solution: 20
+sol 20
 
-Subexo:
+subexo
 ~~~cpp
 // 6
 int i = 20;
@@ -67,5 +67,5 @@ do
 while (i < 0); 
 ~~~
 
-Solution: COMP
-Explanation: ne compile pas car manque les `{` `}`
+sol COMP
+exp ne compile pas car manque les `{` `}`

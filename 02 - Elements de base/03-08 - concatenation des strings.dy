@@ -1,53 +1,53 @@
-Skill: Elements de base
-Exo: Concaténation
+skill Elements de base
+exo Concaténation
 
 Indiquer la valeur de la variable `s` après pour la séquence d'instructions suivantes. Si erreur indiquer `INCO`.
 
-Subexo:
+subexo
 ~~~cpp
 string s = string("A") + "BC";
 ~~~
-Solution: ABC
+sol ABC
 
-Subexo:
+subexo
 ~~~cpp
 string s = string("AB") + 'C';
 ~~~
-Solution: ABC
+sol ABC
 
-Subexo:
+subexo
 ~~~cpp
 string s = "A" + "BC";
 ~~~
-Solution: INCO
+sol INCO
 
-Subexo:
+subexo
 ~~~cpp
 string s = "AB";
 s += 'C';
 ~~~
-Solution: ABC
+sol ABC
 
-Subexo:
+subexo
 ~~~cpp
 string s = "AB";
 string ss = s + 5;
 ~~~
-Solution: INCO
+sol INCO
 
-Subexo:
+subexo
 ~~~cpp
 string s = "PRG";
 string s1 = "2023-01-01";
 s += s1[4]; 
 s += s1[6];
 ~~~
-Solution: PRG-1
+sol PRG-1
 
 
-Subexo:
+subexo
 ~~~cpp
 string s = "PRG";
 s += to_string(1);
 ~~~
-Solution: PRG
+sol PRG

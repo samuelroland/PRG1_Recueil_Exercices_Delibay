@@ -1,66 +1,66 @@
-Skill: Chaines de caracteres
-Exo: Constructeurs de la classe string
+skill Chaines de caracteres
+exo Constructeurs de la classe string
 Indiquer ce que va afficher la séquence d'instructions suivantes : 
 
 _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exécution, voire ait un comportement indéfini. Le cas échéant, répondez `COMP` ("Erreur à la compilation"), `EXEC` ("Erreur à l'exécution") ou `INDE` ("Comportement indéfini")_
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 1);
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: |BC|
+sol |BC|
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 2, 3);
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: |C|
+sol |C|
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 3, 2);
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: ||
+sol ||
 
-Subexo:
+subexo
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 4, 1);
 cout << '|' << s2 << '|' << endl;
 ~~~
-Solution: EXEC
+sol EXEC
 TODO: faut-il uniformiser ces erreurs particulières partout ?
 
-Subexo:
+subexo
 ~~~cpp
 string s("ABC", 3);
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC|
+sol |ABC|
 
-Subexo:
+subexo
 ~~~cpp
 string s("ABC", 4);
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |ABC\0|
+sol |ABC\0|
 
-Subexo:
+subexo
 ~~~cpp
 string s("ABC", 5);
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: INDE
+sol INDE
 
-Subexo:
+subexo
 ~~~cpp
 string s(3, 'A');
 cout << '|' << s << '|' << endl;
 ~~~
-Solution: |AAA|
+sol |AAA|

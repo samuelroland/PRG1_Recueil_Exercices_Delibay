@@ -1,5 +1,5 @@
-Skill: Structures de Controle
-Exo: switch -> if ... else
+skill Structures de Controle
+exo switch -> if ... else
 Soit le programme suivant
 
 ~~~cpp
@@ -24,20 +24,20 @@ int main() {
 
 Que va-t-il afficher lorsque l'utilisateur entre comme valeur:
 
-Subexo: 0
-Solution: AB
+subexo 0
+sol AB
 
-Subexo: 1
-Solution: B
+subexo 1
+sol B
 
-Subexo: 2
-Solution: B
+subexo 2
+sol B
 
-Subexo: 4
-Solution: CD
+subexo 4
+sol CD
 
-Subexo: 6
-Solution: D
+subexo 6
+sol D
 
-Subexo: -1
-Solution: D
+subexo -1
+sol D

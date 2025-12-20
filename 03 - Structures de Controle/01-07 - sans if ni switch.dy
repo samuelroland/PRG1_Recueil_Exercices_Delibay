@@ -1,8 +1,8 @@
-Skill: Structures de Controle
-Exo: Sans if ni switch
+skill Structures de Controle
+exo Sans if ni switch
 Réécrivez les extraits de code suivants en n'utilisant ni `if` ni `switch` mais exclusivement des opérateurs de comparaisons et des opérateurs logiques.
 
-Subexo:
+subexo
 ~~~cpp
 if (i < 1) {
    b = true;
@@ -10,10 +10,10 @@ if (i < 1) {
    b = i > 2;
 }
 ~~~
-Solution: b = (i < 1) or (i > 2);
+sol b = (i < 1) or (i > 2);
 TODO: add [rm: ] ??
 
-Subexo:
+subexo
 ~~~cpp
 if (j == 0) {
    b = true;
@@ -25,11 +25,11 @@ if (j == 0) {
    }
 }
 ~~~
-Solution:
+sol
 - b = (j == 0) or (i / j >= k);
 - b = (j == 0) or !(i / j < k);
 
-Subexo:
+subexo
 ~~~cpp
 if (j == 0) {
    b = false;
@@ -42,4 +42,4 @@ if (j == 0) {
 }
 ~~~
 
-Solution: b = (j != 0) and (i / j < k);
+sol b = (j != 0) and (i / j < k);

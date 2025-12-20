@@ -1,5 +1,5 @@
-Skill: Elements de base
-Exo: Opérations sur le type char
+skill Elements de base
+exo Opérations sur le type char
 
 Que va afficher le programme C++ suivant ?
 
@@ -9,32 +9,32 @@ char y = '0'; // 48
 char z;
 ~~~
 
-Subexo:
+subexo
 ~~~cpp
 z = x + 4;
 cout << z << endl; // 1
 ~~~
-Solution: E
+sol E
 TODO: ok et utile de mettre // 1 pour retirer le numéro de l'output mais garder cette info visible ?
 
-Subexo:
+subexo
 ~~~cpp
 z = x + 4;
 cout << ++z << endl; // 2
 ~~~
-Solution: F
+sol F
 TODO: okay d'avoir coupé le 1 et 2 comme ça ?
 
-Subexo:
+subexo
 ~~~cpp
 z = x + 0;
 cout << z << endl; // 3
 ~~~
-Solution: A
+sol A
 
-Subexo:
+subexo
 ~~~cpp
 z = x + '0';
 cout << z << endl; // 4
 ~~~
-Solution: q
+sol q

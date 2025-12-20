@@ -1,5 +1,5 @@
-Skill: Types arithmétiques et conversions
-Exo: Evaluations d'expressions (2)
+skill Types arithmétiques et conversions
+exo Evaluations d'expressions (2)
 Soient les déclarations suivantes :
 ~~~cpp
 int i = 5, j = 11; 
@@ -8,41 +8,41 @@ int i = 5, j = 11;
 Indiquer ce que vaut la variable dans le cas suivant:
 **NB** Noter la réponse sous forme décimale
 
-Subexo:
+subexo
 ~~~cpp
 double x1 = (double) j / i;
 ~~~
-Solution: 2.2
-Explanation: 
+sol 2.2
+exp 
 division réelle
 
-Subexo:
+subexo
 ~~~cpp
 double x2 = double(j / i);
 ~~~
-Solution: 2.0
-Explanation: 
+sol 2.0
+exp 
 division entière
 
-Subexo:
+subexo
 ~~~cpp
 double x3 = j / i + .5;
 ~~~
-Solution: 2.5
+sol 2.5
 
-Subexo:
+subexo
 ~~~cpp
 double x4 = (double) j / i + .5;
 ~~~
-Solution: 2.7
-Explanation: 
+sol 2.7
+exp 
 division réelle
 
-Subexo:
+subexo
 ~~~cpp
 double x5 = (int)( j + .5) / i;
 ~~~
-Solution: 2.0
-Explanation:
+sol 2.0
+exp
 division entière 
 

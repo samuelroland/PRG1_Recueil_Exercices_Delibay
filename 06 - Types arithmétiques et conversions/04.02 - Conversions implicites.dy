@@ -1,5 +1,5 @@
-Skill: Types arithmétiques et conversions
-Exo: Conversions implicites 
+skill Types arithmétiques et conversions
+exo Conversions implicites 
 
 Soient les déclarations et modificiations du flux ci-dessous 
 
@@ -26,80 +26,80 @@ Qu'affichent les lignes suivantes ? Justifiez votre réponse
 - en ajoutant toutes les parenthèses qui traduisent l'ordre implicite des opérateurs
 
 ---
-Subexo:
+subexo
 ~~~cpp
 cout << s * d + u;
 ~~~
-Solution: 0
-Explanation: équivalent à `((double(-1) * 1.) + double(1u))`
+sol 0
+exp équivalent à `((double(-1) * 1.) + double(1u))`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << s * u + d;
 ~~~
-Solution: 4294967296
-Explanation: équivalent à `(double(unsigned(-1) * 1u) + 1.)`
+sol 4294967296
+exp équivalent à `(double(unsigned(-1) * 1u) + 1.)`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << d * u + s;
 ~~~
-Solution: 0
-Explanation: équivalent à `((1. * double(1u)) + double(-1))`
+sol 0
+exp équivalent à `((1. * double(1u)) + double(-1))`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << sc * uc + d;
 ~~~
-Solution: 0
-Explanation: équivalent à `(double(int(-1) * int(1)) + 1.)`
+sol 0
+exp équivalent à `(double(int(-1) * int(1)) + 1.)`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << sc * uc + s;
 ~~~
-Solution: -2
-Explanation: équivalent à `(((int(-1) * int(1u)) + -1)`
+sol -2
+exp équivalent à `(((int(-1) * int(1u)) + -1)`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << sc * uc - u;
 ~~~
-Solution: 4294967294
-Explanation: équivalent à `(unsigned(int(-1) * int(1u)) - 1u)`
+sol 4294967294
+exp équivalent à `(unsigned(int(-1) * int(1u)) - 1u)`
 
 TODO. sur les 5 true/false, est-ce que ce n'est pas 0/1 plutôt ? comment avoir ça au mieux ?
-Subexo: 
+subexo 
 ~~~cpp
 cout << (s < u);
 ~~~
-Solution: false
-Explanation: équivalent à `(unsigned(-1) < 1u)` avec `unsigned(-1)` qui vaut `4294967295`
+sol false
+exp équivalent à `(unsigned(-1) < 1u)` avec `unsigned(-1)` qui vaut `4294967295`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << (s < d);
 ~~~
-Solution: true
-Explanation: équivalent à `(double(-1) < 1.)`
+sol true
+exp équivalent à `(double(-1) < 1.)`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << (-u < d);
 ~~~
-Solution: false
-Explanation: équivalent à `(double(-1u) < -1)` avec `-1u` qui vaut `4294967295`
+sol false
+exp équivalent à `(double(-1u) < -1)` avec `-1u` qui vaut `4294967295`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << (-uc < d);
 ~~~
-Solution: true
-Explanation: équivalent à `(double(-int(1)) < 1.)`
+sol true
+exp équivalent à `(double(-int(1)) < 1.)`
 
-Subexo: 
+subexo 
 ~~~cpp
 cout << (-d < u);
 ~~~
-Solution: true
-Explanation: équivalent à `(-1. < double(1u))`
+sol true
+exp équivalent à `(-1. < double(1u))`
