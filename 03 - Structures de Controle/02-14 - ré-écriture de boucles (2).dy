@@ -13,7 +13,7 @@ for (int i = 0; i < n; ++i) {
 }
 ~~~
 
-sol 
+exp 
 ~~~cpp
 { // bloc nécessaire pour limiter le scope de la variable de boucle i 
    int i = 0;
@@ -31,7 +31,7 @@ for (int i = 0; i < n; ++i) {
 }
 ~~~
 
-sol 
+exp 
 ~~~cpp
 if (int i = 0; i < n) { // déclaration dans le if pour limiter le scope de la variable de boucle i
    do {
@@ -64,7 +64,7 @@ while (i-- > n) {
 }
 ~~~
 
-sol 
+exp 
 ~~~cpp
 int i = 0; // déclaration hors du for pour ne pas limiter le scope de la variable 
 for (; i-- > n;) {
@@ -80,7 +80,7 @@ while (i-- > n) {
 }
 ~~~
 
-sol 
+exp 
 ~~~cpp
 int i = 0; 
 if (i-- > n) {
@@ -99,7 +99,7 @@ do {
 } while (i < n);   
 ~~~
 
-sol 
+exp 
 ~~~cpp
 int i = 0; 
 cout << i << endl; 
@@ -117,7 +117,7 @@ do {
 } while (i < n);   
 ~~~
 
-sol 
+exp 
 ~~~cpp
 int i = 0; 
 cout << i << endl; 

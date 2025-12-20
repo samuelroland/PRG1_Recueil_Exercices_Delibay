@@ -1,13 +1,13 @@
 skill Types arithmétiques et conversions
 exo Types numériques (théorie)
 
-TODO: garder les numéros ou pas ?
-TODO: possible de transformer les 2 premiers sous-exos en un type autocorrigé ?
+// TODO: garder les numéros ou pas ?
+// TODO: possible de transformer les 2 premiers sous-exos en un type autocorrigé ?
 
 subexo [open]
 1. Dressez la liste exhaustive de tous les types entiers **signés** supportés par C++ 
 
-sol 
+exp
 
 ~~~cpp 
 // chaque ligne correspond à un type qui peut s'écrire de diverse manières.
@@ -34,7 +34,7 @@ long signed int long;
 subexo [open]
 2. Dressez la liste exhaustive de tous les types entiers **non signés** supportés par C++ 
 
-sol 
+exp 
 
 ~~~cpp 
 unsigned char;

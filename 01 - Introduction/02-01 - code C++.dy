@@ -18,21 +18,21 @@ int main()                                  // 3
 ~~~
 subexo
 A quoi sert la partie `1` et pourquoi spécifiquement ces 2 éléments ?
-sol 
+exp 
 Ca sert à ajouter des librairies utiles au programme
 - `iostream`  : pour `cout`, `cin`, ...
 - `cstdlib`   : pour `EXIT_SUCCESS`
 
 subexo
 A quoi sert la partie `2` ?
-sol 
+exp 
 Utilise l'espace de nommage (namespace en anglais) `std`. Sans quoi, il faudrait écrire
 - `std::cout`
 - `std::endl`
 
 subexo
 A quoi sert la partie `3` ?
-sol 
+exp 
 `main` est le nom de la fonction principale (obligatoire)
 - n'a pas de paramètre () /!\ `main(void)` serait faux (du C)
 - retourne un code d'erreur en entier
@@ -42,16 +42,16 @@ TODO: meilleure question possible ou faut-il reformuler la solution ?
 
 subexo
 Que définit la partie `4` (voir les 2 lignes)?
-sol `{ ... }` bloc de la fonction contenant les instructions
+exp `{ ... }` bloc de la fonction contenant les instructions
 
 subexo
 Qu'écrit-on dans cette zone (partie `5`) de la fonction ? Que faut-il mettre en fin de ligne ?
-sol Les instructions, toutes se terminent par un ";"
+exp Les instructions, toutes se terminent par un ";"
 TODO: 2ème question ok ?
 
 subexo
 Que définit la partie `6` et que signifie `EXIT_SUCCESS` ?
-sol 
+exp 
 Code d'erreur en fin de fonction.
 **NB**: pas obligatoire pour la fonction "main"
 

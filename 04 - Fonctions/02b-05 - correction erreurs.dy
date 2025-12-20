@@ -48,7 +48,7 @@ Le programme ci-dessous contient plusieurs erreurs.
 41 }
 ~~~
 
-sol
+exp
 
 1) Erreurs
 - Ligne 18 : Le paramètre effectif de g ne peut être qu'une variable

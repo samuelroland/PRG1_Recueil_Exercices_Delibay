@@ -1,8 +1,8 @@
 skill Types arithmétiques et conversions
 exo Littéraux constants
-TODO: okay de refactoriser la solution (pas l'instruction) en mode "long int v2 = 1;" -> "long int 1" puisque "v2 =" n'apporte rien ? adapter la consigne en conséquence
-TODO: transformer en autocorrectible en même temps
-TODO: a verifier
+// TODO: okay de refactoriser la solution (pas l'instruction) en mode "long int v2 = 1;" -> "long int 1" puisque "v2 =" n'apporte rien ? adapter la consigne en conséquence
+// TODO: transformer en autocorrectible en même temps
+// TODO: a verifier
 
 Pour chacune des lignes de code suivantes, indiquez 
 - si elle compile
@@ -15,11 +15,10 @@ On suppose que le compilateur utilise le modèle de donnée LLP64, i.e, avec `in
 Pour simplifier les réponses, au lieu de: "long int v2 = 1;", veuillez écrire: "long int 1"
 En cas d'erreur de compilation, écrire: `nocompile`
 subexo 
+~~~cpp
+auto v1 = 12u;        cout << v1 << endl;
 ~~~
-  auto v1 = 12u;        cout << v1 << endl;
-~~~
-sol 
-unsigned int 12
+sol unsigned int 12
 
 subexo 
 ~~~

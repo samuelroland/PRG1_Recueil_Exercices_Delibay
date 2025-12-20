@@ -13,7 +13,7 @@ for (; i < 10; ++i) {
 }
 ~~~
 
-sol
+exp
 ~~~cpp
 while (i < 10) {
    cout << i << endl;
@@ -29,7 +29,7 @@ for (; i < 10; ++i) {
 }
 ~~~
 
-sol
+exp
 ~~~cpp
 if (i < 10) {
    do {
@@ -48,7 +48,7 @@ while (i-- > 10) {
 }
 ~~~
 
-sol
+exp
 ~~~cpp
 for (; i-- > 10;) {
     cout << i << endl;
@@ -63,7 +63,7 @@ while (i-- > 10) {
 }
 ~~~
 
-sol
+exp
 ~~~cpp
 if (i > 10) {
    do {
@@ -84,7 +84,7 @@ do {
 } while (i < 10);
 ~~~
 
-sol
+exp
 ~~~cpp
 cout << i << endl; 
 for (++i; i < 10; ++i) {
@@ -101,7 +101,7 @@ do {
 } while (i < 10);
 ~~~
 
-sol
+exp
 ~~~cpp
 cout << i << endl; 
 ++i;

@@ -19,4 +19,4 @@ if (prixActuel < 100) {
 }
 ~~~
 
-sol Non, si prixActuel == 100, la valeur de nouveauPrix diffère.
+exp Non, si prixActuel == 100, la valeur de nouveauPrix diffère.
