@@ -1,0 +1,160 @@
+skill Tableaux
+exo Tri à bulles
+
+Effectuez le tri à bulles sur les tableaux suivants. 
+Indiquez l'état du tableau après chaque échange 
+
+subexo
+table
+header
+- 3
+- 2
+- 5
+- 1
+- 4
+row
+- [text] 2
+- [text] 3
+- [text] 5
+- [text] 1
+- [text] 4
+row
+- [text] 2
+- [text] 3
+- [text] 1
+- [text] 5
+- [text] 4
+row
+- [text] 2
+- [text] 3
+- [text] 1
+- [text] 4
+- [text] 5
+row
+- [text] 2
+- [text] 1
+- [text] 3
+- [text] 4
+- [text] 5
+row
+- [text] 1
+- [text] 2
+- [text] 3
+- [text] 4
+- [text] 5
+
+subexo
+table
+header
+- 4
+- 3
+- 2
+- 5
+- 1
+
+row
+- [text] 3
+- [text] 4
+- [text] 2
+- [text] 5
+- [text] 1
+row
+- [text] 3
+- [text] 2
+- [text] 4
+- [text] 5
+- [text] 1
+row
+- [text] 3
+- [text] 2
+- [text] 4
+- [text] 1
+- [text] 5
+row
+- [text] 2
+- [text] 3
+- [text] 4
+- [text] 1
+- [text] 5
+row
+- [text] 2
+- [text] 3
+- [text] 1
+- [text] 4
+- [text] 5
+row
+- [text] 2
+- [text] 1
+- [text] 3
+- [text] 4
+- [text] 5
+row
+- [text] 1
+- [text] 2
+- [text] 3
+- [text] 4
+- [text] 5
+
+subexo
+table
+header
+- 5
+- 4
+- 2
+- 3
+- 1
+
+row
+- [text] 4
+- [text] 5
+- [text] 2
+- [text] 3
+- [text] 1
+row
+- [text] 4
+- [text] 2
+- [text] 5
+- [text] 3
+- [text] 1
+row
+- [text] 4
+- [text] 2
+- [text] 3
+- [text] 5
+- [text] 1
+row
+- [text] 4
+- [text] 2
+- [text] 3
+- [text] 1
+- [text] 5
+row
+- [text] 2
+- [text] 4
+- [text] 3
+- [text] 1
+- [text] 5
+row
+- [text] 2
+- [text] 3
+- [text] 4
+- [text] 1
+- [text] 5
+row
+- [text] 2
+- [text] 3
+- [text] 1
+- [text] 4
+- [text] 5
+row
+- [text] 2
+- [text] 1
+- [text] 3
+- [text] 4
+- [text] 5
+row
+- [text] 1
+- [text] 2
+- [text] 3
+- [text] 4
+- [text] 5
